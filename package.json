@@ -1,0 +1,33 @@
+{
+  "name": "medicalify-template",
+  "version": "1.0.1",
+  "homepage": "https://www.medicalify.io",
+  "repository": "https://github.com/hugolify/medicalify-template",
+  "bugs": {
+    "url": "https://github.com/hugolify/medicalify-template/issues"
+  },
+  "author": {
+    "name": "Medicalify",
+    "url": "https://www.medicalify.io/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@hugolify/prettier-config": "^0.3.1",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "netlify-plugin-hugo-cache-resources": "^0.2.1",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-sass": "^0.5.0"
+  },
+  "scripts": {
+    "watch": "hugo server",
+    "build": "hugo --noChmod --gc --minify",
+    "update": "hugo mod get -u",
+    "tidy": "hugo mod tidy",
+    "clean": "hugo mod clean",
+    "cleanall": "hugo mod clean --all",
+    "cms": "npx netlify-cms-proxy-server"
+  }
+}

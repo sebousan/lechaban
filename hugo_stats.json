@@ -1,0 +1,54 @@
+{
+  "htmlElements": {
+    "tags": [
+      "a",
+      "body",
+      "div",
+      "footer",
+      "h1",
+      "head",
+      "header",
+      "html",
+      "li",
+      "link",
+      "main",
+      "meta",
+      "nav",
+      "ol",
+      "p",
+      "script",
+      "span",
+      "title",
+      "ul"
+    ],
+    "classes": [
+      "404-page",
+      "bottom",
+      "breadcrumb-wrapper",
+      "btn",
+      "btn-primary",
+      "container",
+      "heading",
+      "heading-filter",
+      "hero",
+      "hero-content",
+      "hero-media",
+      "home-page",
+      "hugolify",
+      "logo",
+      "nav",
+      "nav-accessibility",
+      "preload",
+      "row",
+      "section-persons",
+      "section-services",
+      "taxonomy-persons_expertises",
+      "taxonomy-persons_statutes",
+      "top"
+    ],
+    "ids": [
+      "footer",
+      "main"
+    ]
+  }
+}
