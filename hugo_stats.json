@@ -33,7 +33,6 @@
       "btn",
       "btn-primary",
       "card",
-      "col-md-10",
       "container",
       "content",
       "description",
@@ -45,8 +44,6 @@
       "home-page",
       "hugolify",
       "icon",
-      "icon-bus",
-      "icon-telephone",
       "icon-train-lightrail-front-fill",
       "icon-truck-front",
       "item",
@@ -60,10 +57,8 @@
       "name",
       "nav",
       "nav-accessibility",
-      "offset-md-1",
       "preload",
       "row",
-      "surtitle",
       "top"
     ],
     "ids": [

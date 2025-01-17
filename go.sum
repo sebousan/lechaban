@@ -4,8 +4,8 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+y
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/hugolify/hugolify-admin v0.0.0-20250115182103-c084249cfedf h1:FPKRuttkazCD4VJgzjFhGd6WzRHDR6CxavtgwhRsetw=
 github.com/hugolify/hugolify-admin v0.0.0-20250115182103-c084249cfedf/go.mod h1:qB7ndiuXR6XZu3r9UX3LtTHnrMF98U7vJHg6XXb6NvA=
-github.com/hugolify/hugolify-theme v1.18.27 h1:KjFtdRu8D7+Yjxqq089ug3aTTmXnq+I5FgjkZBX9sT4=
-github.com/hugolify/hugolify-theme v1.18.27/go.mod h1:dRIiGMTOC5dQ8U9CEcLyNIW7be6n7jNx0iSUB1YKdJw=
+github.com/hugolify/hugolify-theme v1.18.28 h1:sVohL1/ShAf3JsvAaFkcEMIjl19+6Q2dSR6U1w1TQNg=
+github.com/hugolify/hugolify-theme v1.18.28/go.mod h1:dRIiGMTOC5dQ8U9CEcLyNIW7be6n7jNx0iSUB1YKdJw=
 github.com/hugolify/medicalify-theme v0.0.0-20231129095153-1e2ecb40ee23 h1:0k++V3wzdZE52oKjWjP3KQBMieMrEBwxD0B3TxhVUuA=
 github.com/hugolify/medicalify-theme v0.0.0-20231129095153-1e2ecb40ee23/go.mod h1:MgYccWexYZNR1hiEzs/Umuco1jV0hvfKs8Obixh1M0Q=
 github.com/midzer/tobii v2.7.1+incompatible h1:wNAKvMPUCzYpSM7qM8TkNtjYdua9s2lC7oZorsE4ixU=

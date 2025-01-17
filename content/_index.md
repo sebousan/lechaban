@@ -3,25 +3,17 @@ isIndex: true
 title: Accueil
 hero:
   surtitle: ""
-  title: Cabinet dentaire Le Chaban
+  title: Cabinet dentaire du Dr Bancaud, Dr Barraud et Dr Dutin
   align: center
   text: |-
-    Dr Bancaud, Dr Barraud et Dr Dutin.
-
-    Praticien conventionné. Carte Vitale acceptée. Carte Banquaire acceptée.
+    Praticiens conventionnés. 
+    
+    Carte Vitale acceptée. Carte Banquaire acceptée.
+  ctas:
+    - url: 'tel:+33557815790'
+      text: 05 57 81 57 90
 blocks:
-  - type: informations
-    column: 3
-    background: false
-    items:
-      - icon: telephone
-        title: 05 57 81 57 90
-      - icon: train-lightrail-front-fill
-        title: Tramway A
-        text: Arrêt Stade Chaban Delmas
-      - icon: truck-front
-        title: Bus 1 et 9
-        text: Arrêt Stade Chaban Delmas
+  
   - type: map
     show_places: false
     zoom: 16
@@ -30,4 +22,14 @@ blocks:
     location: '{"type":"Point","coordinates":[-0.5971761,44.8307165]}'
     heading:
       title: 66 Bd Maréchal Leclerc 33200 Bordeaux
+  - type: informations
+    column: 3
+    background: false
+    items:
+      - icon: train-lightrail-front-fill
+        title: Tramway A
+        text: Arrêt Stade Chaban Delmas
+      - icon: truck-front
+        title: Bus 1 et 9
+        text: Arrêt Stade Chaban Delmas
 ---
