@@ -5,11 +5,10 @@ imports:
   - path: github.com/hugolify/medicalify-theme
 
   # For exampleSite
-  - path: github.com/hugolify/hugolify-theme-expertises
-  - path: github.com/hugolify/hugolify-theme-services
-  - path: github.com/hugolify/hugolify-theme-persons-expertises
-  - path: github.com/hugolify/hugolify-theme-persons-statutes
-  - path: github.com/hugolify/hugolify-theme-persons
+  # - path: github.com/hugolify/hugolify-theme-expertises
+  # - path: github.com/hugolify/hugolify-theme-persons-expertises
+  # - path: github.com/hugolify/hugolify-theme-persons-statutes
+  # - path: github.com/hugolify/hugolify-theme-persons
 
   # Core theme
   - path: github.com/hugolify/hugolify-theme

@@ -1,10 +1,10 @@
 {
-  "name": "medicalify-template",
-  "version": "1.0.1",
+  "name": "lechaban",
+  "version": "1.0.0",
   "homepage": "https://www.medicalify.io",
-  "repository": "https://github.com/hugolify/medicalify-template",
+  "repository": "https://github.com/sebousan/lechaban",
   "bugs": {
-    "url": "https://github.com/hugolify/medicalify-template/issues"
+    "url": "https://github.com/sebousan/lechaban/issues"
   },
   "author": {
     "name": "Medicalify",
