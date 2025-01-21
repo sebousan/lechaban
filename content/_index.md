@@ -2,14 +2,12 @@
 isIndex: true
 title: Accueil
 hero:
-  surtitle: ""
   title: Cabinet dentaire du Dr Anne Dutin, Dr Benjamin Barraud et Dr Frédéric Bancaud
   align: center
   ctas:
     - url: 'tel:+33557815790'
       text: 05 57 81 57 90
 blocks:
-  
   - type: map
     show_places: false
     zoom: 16
