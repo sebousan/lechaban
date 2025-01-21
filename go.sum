@@ -2,10 +2,10 @@ github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 h1:SmpwwN3DNzJWbV+
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200/go.mod h1:kx8MBj9T7SFR8ZClWvKZPmmUxBaltkoXvnWlZZcSnYA=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+yb0/t3/rau1j8XlAxLE4CyXns2fqQbyqWfs=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
-github.com/hugolify/hugolify-admin v0.0.0-20250117133541-756657542b35 h1:+U7CfftBB7dATH+hEuJ/k5lQZagD21kioDAfZJIE2uw=
-github.com/hugolify/hugolify-admin v0.0.0-20250117133541-756657542b35/go.mod h1:qB7ndiuXR6XZu3r9UX3LtTHnrMF98U7vJHg6XXb6NvA=
-github.com/hugolify/hugolify-theme v1.18.29 h1:pK6D38a0rAtn6mM2nNxApYWbhpzva7IEpB365jWwc0I=
-github.com/hugolify/hugolify-theme v1.18.29/go.mod h1:dRIiGMTOC5dQ8U9CEcLyNIW7be6n7jNx0iSUB1YKdJw=
+github.com/hugolify/hugolify-admin v0.0.0-20250120143210-75681b496e3d h1:HE4IwQHflxckd507wBR117L14UEFSskY2IgeSQBsv7c=
+github.com/hugolify/hugolify-admin v0.0.0-20250120143210-75681b496e3d/go.mod h1:qB7ndiuXR6XZu3r9UX3LtTHnrMF98U7vJHg6XXb6NvA=
+github.com/hugolify/hugolify-theme v1.18.30 h1:nHFPgUK2NWcRyPlLGHGb4S7lwhYxd6CwlHVxGc3l6T4=
+github.com/hugolify/hugolify-theme v1.18.30/go.mod h1:dRIiGMTOC5dQ8U9CEcLyNIW7be6n7jNx0iSUB1YKdJw=
 github.com/hugolify/medicalify-theme v0.0.0-20250117134202-df79b2b6a7e1 h1:0Bl+WppMTGQIRt8kSPrskoKKC3hCOKLnne+RbmKLvVw=
 github.com/hugolify/medicalify-theme v0.0.0-20250117134202-df79b2b6a7e1/go.mod h1:dhql2y4Hr9ljj17WnC3VLBLj3dyxjBa8P2eHGpKQLCo=
 github.com/midzer/tobii v2.7.1+incompatible h1:wNAKvMPUCzYpSM7qM8TkNtjYdua9s2lC7oZorsE4ixU=

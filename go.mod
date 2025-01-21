@@ -5,8 +5,8 @@ go 1.21
 require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
-	github.com/hugolify/hugolify-admin v0.0.0-20250117133541-756657542b35 // indirect
-	github.com/hugolify/hugolify-theme v1.18.29 // indirect
+	github.com/hugolify/hugolify-admin v0.0.0-20250120143210-75681b496e3d // indirect
+	github.com/hugolify/hugolify-theme v1.18.30 // indirect
 	github.com/hugolify/medicalify-theme v0.0.0-20250117134202-df79b2b6a7e1 // indirect
 	github.com/midzer/tobii v2.7.1+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
