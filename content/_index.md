@@ -2,7 +2,7 @@
 isIndex: true
 title: Accueil
 hero:
-  title: Cabinet dentaire du Dr Anne Dutin, Dr Benjamin Barraud et Dr Frédéric Bancaud
+  title: Cabinet dentaire du Dr Anna Dutin, Dr Benjamin Barraud et Dr Frédéric Bancaud
   align: center
   ctas:
     - url: 'tel:+33557815790'
