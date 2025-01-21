@@ -1,3 +1,11 @@
-@include media-breakpoint-up(md)
-    header[role="banner"] > nav > .container
-        justify-content: center
+header[role="banner"]
+    .logo
+        font-size: 1.5rem
+        font-weight: 700
+        letter-spacing: .05em
+        text-transform: uppercase
+    @include media-breakpoint-up(md)
+        .logo
+            font-size: 2rem
+        > nav > .container
+            justify-content: center

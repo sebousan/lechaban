@@ -3,12 +3,8 @@ isIndex: true
 title: Accueil
 hero:
   surtitle: ""
-  title: Cabinet dentaire du Dr Bancaud, Dr Barraud et Dr Dutin
+  title: Cabinet dentaire du Dr Anne Dutin, Dr Benjamin Barraud et Dr Frédéric Bancaud
   align: center
-  text: |-
-    Praticiens conventionnés. 
-    
-    Carte Vitale acceptée. Carte Banquaire acceptée.
   ctas:
     - url: 'tel:+33557815790'
       text: 05 57 81 57 90
@@ -23,7 +19,7 @@ blocks:
     heading:
       title: 66 Bd Maréchal Leclerc 33200 Bordeaux
   - type: informations
-    column: 3
+    column: 2
     background: false
     items:
       - icon: train-lightrail-front-fill
