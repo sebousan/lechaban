@@ -10,7 +10,7 @@ Le site [www.lechaban.fr](https://www.lechaban.fr/) est la propriété du Cabine
 
 ## Hébergement
 
-Le site web [www.lechaban.fr](https://www.lechaban.fr/) est hébergé chez :
+Le site Web [www.lechaban.fr](https://www.lechaban.fr/) est hébergé chez :
 
 **Netlify**\
 2325 3rd Street, \
@@ -27,4 +27,4 @@ Un Cinq \
 [uncinq.dev](https://uncinq.dev/)
 
 **Solution** \
-Ce site a été conçu avec [Medicalify](https://www.medicalify.io/), une solution open-source basée sur [Hugolify](https://www.hugolify.io/), qui permet de concevoir un site le plus écologique possible et au plus proche des critères d’accessibilité. Cette solution est dédiée à l’univers de l’immobilier.
+Ce site a été conçu avec [Medicalify](https://www.medicalify.io/), une solution open-source basée sur [Hugolify](https://www.hugolify.io/), qui permet de concevoir un site le plus écologique possible et au plus proche des critères d’accessibilité. Cette solution est dédiée à l’univers médical.
