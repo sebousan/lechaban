@@ -1,12 +1,12 @@
 ---
 isPage: true
-draft: true
+draft: false
 title: Mentions légales
 ---
 
 ## Éditeur
 
-Le site [www.lechaban.fr](https://www.lechaban.fr/) est la propriété de la SARL Le Chaban - Cabinet dentaire….
+Le site [www.lechaban.fr](https://www.lechaban.fr/) est la propriété du Cabinet dentaire 201 R St Genes Bordeaux, au capital de 609,60 euros, immatriculée au RCS Bordeaux sous le numéro 418587630, dont le siège se situe au 201 rue de Saint Genes 33000 Bordeaux.
 
 ## Hébergement
 
@@ -28,11 +28,3 @@ Un Cinq \
 
 **Solution** \
 Ce site a été conçu avec [Medicalify](https://www.medicalify.io/), une solution open-source basée sur [Hugolify](https://www.hugolify.io/), qui permet de concevoir un site le plus écologique possible et au plus proche des critères d’accessibilité. Cette solution est dédiée à l’univers de l’immobilier.
-
-## Mesure d’audience
-
-À ce jour, [www.lechaban.fr](https://www.lechaban.fr/) ne collecte aucune donnée personnelle à travers son site internet (pas de mesure d’audience ni de formulaires).
-
-## Cookies
-
-Aucun.

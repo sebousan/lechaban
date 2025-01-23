@@ -7,6 +7,8 @@ hero:
   ctas:
     - url: 'tel:+33557815790'
       text: 05 57 81 57 90
+    - url: 'mailto:contact@lechaban.fr'
+      text: contact@lechaban.fr
 blocks:
   - type: map
     show_places: false

@@ -1,2 +1,5 @@
 _merge: deep
 tile: 1
+
+logo:
+  footer: '/assets/images/logo.svg'
