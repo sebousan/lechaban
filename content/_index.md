@@ -2,7 +2,7 @@
 isIndex: true
 title: Accueil
 hero:
-  title: Cabinet dentaire du Dr Anne Dutin, Dr Benjamin Barraud et Dr Frédéric Bancaud
+  title: Cabinet dentaire du Dr Anna Dutin, Dr Benjamin Barraud et Dr Frédéric Bancaud
   align: center
   ctas:
     - url: 'tel:+33557815790'
@@ -17,7 +17,7 @@ blocks:
     background: false
     location: '{"type":"Point","coordinates":[-0.5971761,44.8307165]}'
     heading:
-      title: 66 Bd Maréchal Leclerc 33200 Bordeaux
+      title: 66 Bd Maréchal Leclerc 33000 Bordeaux
   - type: informations
     column: 2
     background: false
