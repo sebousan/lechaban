@@ -22,10 +22,10 @@ blocks:
     column: 2
     background: false
     items:
-      - icon: train-lightrail-front-fill
+      - icon: train-lightrail-front
         title: Tramway A
         text: Arrêt Stade Chaban Delmas
-      - icon: truck-front
+      - icon: bus-front
         title: Bus 1 et 9
         text: Arrêt Stade Chaban Delmas
 ---
