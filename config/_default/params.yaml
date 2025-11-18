@@ -1,5 +1,25 @@
 _merge: deep
+
+# Map
 tile: 1
 
+# Images
 logo:
   footer: '/assets/images/logo.svg'
+
+# Javascript
+carousel: false
+bootstrap:
+  collapse: false
+  dropdown: false
+  modal: false
+  offcanvas: false
+map: true
+
+# Admin
+admin:
+
+  # blocks
+  blocks:
+    - informations
+    - map
