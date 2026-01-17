@@ -1,8 +1,4 @@
-## LANGUAGE
 defaultContentLanguage: fr
-languageCode: fr
-
-## ADVANCED
 build:
   buildStats:
     disableClasses: false
@@ -18,5 +14,3 @@ markup:
 pagination:
   pagerSize: 18
 removePathAccents: true
-disableHugoGeneratorInject: true
-timeout: 100000

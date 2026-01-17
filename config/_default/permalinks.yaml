@@ -1,5 +1,13 @@
 _merge: deep
-expertises: /consultations/:slug/
-persons: /cabinet/:slug/
-persons_expertises: /cabinet/expertises/:slug/
-persons_statutes: /cabinet/statuts/:slug/
+page:
+  expertises: /consultations/:slug/
+  persons: /cabinet/:slug/
+section:
+  expertises: /consultations/
+  persons: /cabinet/
+taxonomy:
+  persons_expertises: /cabinet/expertises/
+  persons_statutes: /cabinet/statuts/
+term:
+  persons_expertises: /cabinet/expertises/:slug/
+  persons_statutes: /cabinet/statuts/:slug/

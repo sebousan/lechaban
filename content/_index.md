@@ -10,6 +10,7 @@ hero:
     - url: 'mailto:contact@lechaban.fr'
       text: contact@lechaban.fr
 blocks:
+
   - type: map
     show_places: false
     zoom: 16
@@ -17,15 +18,17 @@ blocks:
     background: false
     location: '{"type":"Point","coordinates":[-0.5971761,44.8307165]}'
     heading:
+      surtitle: Le cabinet dentaire Le Chaban
       title: 66 Bd Maréchal Leclerc 33000 Bordeaux
+
   - type: informations
     column: 2
     background: false
     items:
       - icon: train-lightrail-front
-        title: Tramway A
+        title: Tramway A et F
         text: Arrêt Stade Chaban Delmas
       - icon: bus-front
-        title: Bus 1 et 9
+        title: Bus H, 4 et 9
         text: Arrêt Stade Chaban Delmas
 ---

@@ -5,13 +5,13 @@ go 1.21
 require (
 	github.com/Splidejs/splide v4.1.3+incompatible // indirect
 	github.com/dixonandmoe/rellax v0.0.0-20240824005335-9ed6cb0aae03 // indirect
-	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20200 // indirect
+	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20400 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
-	github.com/hugolify/hugolify-admin v0.0.0-20250120143210-75681b496e3d // indirect
-	github.com/hugolify/hugolify-theme v1.26.21 // indirect
-	github.com/hugolify/medicalify-theme v0.0.0-20250123101340-54835a0a87dd // indirect
-	github.com/midzer/tobii v2.7.1+incompatible // indirect
+	github.com/hugolify/hugolify-admin v0.9.1 // indirect
+	github.com/hugolify/hugolify-theme v1.26.32 // indirect
+	github.com/hugolify/medicalify-theme v0.0.0-20260115155938-8a2af684000b // indirect
+	github.com/midzer/tobii v3.1.1+incompatible // indirect
 	github.com/orestbida/cookieconsent v3.1.0+incompatible // indirect
-	github.com/twbs/bootstrap v5.3.3+incompatible // indirect
-	github.com/twbs/icons v1.11.3 // indirect
+	github.com/twbs/bootstrap v5.3.8+incompatible // indirect
+	github.com/twbs/icons v1.13.1 // indirect
 )

@@ -21,5 +21,6 @@ admin:
 
   # blocks
   blocks:
-    - informations
-    - map
+    enable:
+      - informations
+      - map
