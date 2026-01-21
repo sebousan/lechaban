@@ -3,3 +3,12 @@
         background-color: $light
         .name
             font-weight: 600
+    .btn
+        --bs-btn-font-weight: 600
+        // @include button-variant($doctolib, $doctolib)
+        @include button-outline-variant($doctolib)
+        margin: 0
+        text-decoration: none
+        @include media-breakpoint-down(md)
+            span
+                display: none

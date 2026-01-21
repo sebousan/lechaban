@@ -10,6 +10,42 @@ hero:
     - url: 'mailto:contact@lechaban.fr'
       text: contact@lechaban.fr
 blocks:
+  
+  - type: informations
+    column: 3
+    heading:
+      title: Prendre rendez-vous
+    items: 
+      - title: Dr Anna Dutin
+        text: Chirurgien-dentiste
+        cta:
+          url: https://www.doctolib.fr/dentiste/bordeaux/anna-dutin
+          text: <span>Prendre rendez-vous sur</span> Doctolib
+          blank: true
+      - title: Dr Benjamin Barraud
+        text: Chirurgien-dentiste
+        cta:
+          url: https://www.doctolib.fr/dentiste/bordeaux/benjamin-barraud
+          text: <span>Prendre rendez-vous sur</span> Doctolib
+          blank: true
+      - title: Dr Frédéric Bancaud
+        text: Chirurgien-dentiste
+        cta:
+          url: https://www.doctolib.fr/dentiste/bordeaux/frederic-bancaud
+          text: <span>Prendre rendez-vous sur</span> Doctolib
+          blank: true
+      - title: Dr Eloïse Augoyard
+        text: Chirurgien-dentiste pédiatrique
+        cta:
+          url: https://www.doctolib.fr/dentiste/cenon/eloise-augoyard
+          text: <span>Prendre rendez-vous sur</span> Doctolib
+          blank: true
+      - title: Dr Maxime Barraud
+        text: Chirurgien-dentiste
+        cta:
+          url: https://www.doctolib.fr/dentiste/bordeaux/maxime-barraud
+          text: <span>Prendre rendez-vous sur</span> Doctolib
+          blank: true
 
   - type: map
     show_places: false
