@@ -12,9 +12,6 @@ hero:
     - url: 'mailto:contact@lechaban.fr'
       text: contact@lechaban.fr
       class: btn-email
-    - url: 'mailto:contact@lechaban.fr'
-      text: Prendre rendez-vous <i>sur Doctolib</i>
-      class: btn-doctolib
 
 blocks:
   
