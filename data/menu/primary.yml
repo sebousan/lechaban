@@ -1,0 +1,8 @@
+links:
+  - title: Le cabinet
+    url: /cabinet/
+  - title: L’équipe
+    url: /equipe/
+  - title: Contact
+    url: /contact/
+    is_highlighted: true

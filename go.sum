@@ -8,8 +8,14 @@ github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 h1:GZxx4Hc+y
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
 github.com/hugolify/hugolify-admin v0.9.1 h1:8HPTBodME+MywUbFszNqubHNcGkFMKmy0yl2wO62nFY=
 github.com/hugolify/hugolify-admin v0.9.1/go.mod h1:qB7ndiuXR6XZu3r9UX3LtTHnrMF98U7vJHg6XXb6NvA=
+github.com/hugolify/hugolify-admin v1.0.0-rc.13 h1:ktE/9CgJLnrOgWRijgIT6Y5jIo/UltfUMgsJGgePOvY=
+github.com/hugolify/hugolify-admin v1.0.0-rc.13/go.mod h1:qB7ndiuXR6XZu3r9UX3LtTHnrMF98U7vJHg6XXb6NvA=
 github.com/hugolify/hugolify-theme v1.26.32 h1:FMydr6iwbovDSXobCGoic7xch8mP9cSuFSyaA98RbQE=
 github.com/hugolify/hugolify-theme v1.26.32/go.mod h1:Rc64eJSSIWGeU6eHfSzUISNfL9UrJmy3Xs3H05Gz9rQ=
+github.com/hugolify/hugolify-theme-persons v1.3.26 h1:APxEu7cCSxFPyyE0TGlzRZtKUGL+2P1349tRsOzOnG4=
+github.com/hugolify/hugolify-theme-persons v1.3.26/go.mod h1:x6Gk/koepvu90W+Y6W0+F+5qqBx+lpeTZUonZUkCz1w=
+github.com/hugolify/hugolify-theme-persons-statutes v1.1.12 h1:DbH0jLNQAyeHkYHRfIqKAG30mpul3ZT0oRmGU0G6XEo=
+github.com/hugolify/hugolify-theme-persons-statutes v1.1.12/go.mod h1:/eWhaX5TxpPMzR6B/p071ViwbAllrqqCv6Soqta6FjY=
 github.com/hugolify/medicalify-theme v0.0.0-20260115155938-8a2af684000b h1:ik1U7LCADnD9icElV71trLyWPhIbY09utTrwGqjbI40=
 github.com/hugolify/medicalify-theme v0.0.0-20260115155938-8a2af684000b/go.mod h1:dhql2y4Hr9ljj17WnC3VLBLj3dyxjBa8P2eHGpKQLCo=
 github.com/midzer/tobii v3.1.1+incompatible h1:L5/7+mmfUgIMU3Bs0nVBNdqwwVUZ5M2CAnjFFb1HKak=
