@@ -7,45 +7,37 @@ hero:
   ctas:
     - url: 'tel:+33557815790'
       text: 05 57 81 57 90
+      class: btn-phone
     - url: 'mailto:contact@lechaban.fr'
       text: contact@lechaban.fr
+      class: btn-email
 blocks:
   
-  - type: informations
-    column: 3
+  - type: selected-persons
+    section: persons
     heading:
-      title: Prendre rendez-vous
-    items: 
-      - title: Dr Anna Dutin
-        text: Chirurgien-dentiste
-        cta:
-          url: https://www.doctolib.fr/dentiste/bordeaux/anna-dutin
-          text: <span>Prendre rendez-vous sur</span> Doctolib
-          blank: true
-      - title: Dr Benjamin Barraud
-        text: Chirurgien-dentiste
-        cta:
-          url: https://www.doctolib.fr/dentiste/bordeaux/benjamin-barraud
-          text: <span>Prendre rendez-vous sur</span> Doctolib
-          blank: true
-      - title: Dr Frédéric Bancaud
-        text: Chirurgien-dentiste
-        cta:
-          url: https://www.doctolib.fr/dentiste/bordeaux/frederic-bancaud
-          text: <span>Prendre rendez-vous sur</span> Doctolib
-          blank: true
-      - title: Dr Eloïse Augoyard
-        text: Chirurgien-dentiste pédiatrique
-        cta:
-          url: https://www.doctolib.fr/dentiste/cenon/eloise-augoyard
-          text: <span>Prendre rendez-vous sur</span> Doctolib
-          blank: true
-      - title: Dr Maxime Barraud
-        text: Chirurgien-dentiste
-        cta:
-          url: https://www.doctolib.fr/dentiste/bordeaux/maxime-barraud
-          text: <span>Prendre rendez-vous sur</span> Doctolib
-          blank: true
+      title: L’équipe de Chirurgien-dentiste
+    layout: grid
+    items:
+      - Dr Anna Dutin
+      - Dr Benjamin Barraud
+      - Dr Frederic Bancaud
+      - Dr Eloïse Augoyard
+      - Dr Maxime Barraud
+
+
+  - type: editorial
+    direction: rtl
+    image:
+      src: /images/uploads/test.jpg
+    title: À Bordeaux, depuis 1998
+    text: >-
+      Notre cabinet est spécialisé dans les traitements des
+      maladies parodontales et des gencives, dans la régénération osseuse
+      pré-implantaire et dans la pose d’implants dentaires.
+    ctas:
+      - text: Découvrir le cabinet Le Chaban
+        url: /cabinet/
 
   - type: map
     show_places: false
@@ -56,15 +48,4 @@ blocks:
     heading:
       surtitle: Le cabinet dentaire Le Chaban
       title: 66 Bd Maréchal Leclerc 33000 Bordeaux
-
-  - type: informations
-    column: 2
-    background: false
-    items:
-      - icon: train-lightrail-front
-        title: Tramway A et F
-        text: Arrêt Stade Chaban Delmas
-      - icon: bus-front
-        title: Bus H, 4 et 9
-        text: Arrêt Stade Chaban Delmas
 ---
