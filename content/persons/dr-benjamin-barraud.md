@@ -4,8 +4,6 @@ draft: false
 weight: 10
 title: Dr Benjamin Barraud
 persons_statutes: Chirurgien-dentiste
-image:
-  src: /images/uploads/test2.jpg
 contact:
   doctolib: https://www.doctolib.fr/dentiste/bordeaux/benjamin-barraud
 diplomas: >-

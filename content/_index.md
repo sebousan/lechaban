@@ -29,12 +29,9 @@ blocks:
   - type: editorial
     direction: rtl
     image:
-      src: /images/uploads/test.jpg
-    title: À Bordeaux, depuis 1998
-    text: >-
-      Notre cabinet est spécialisé dans les traitements des
-      maladies parodontales et des gencives, dans la régénération osseuse
-      pré-implantaire et dans la pose d’implants dentaires.
+      src: /images/uploads/lechaban-facade.jpg
+    title: À Bordeaux, depuis 1970
+    
     ctas:
       - text: Découvrir le cabinet Le Chaban
         url: /cabinet/
