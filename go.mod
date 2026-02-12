@@ -8,9 +8,9 @@ require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20400 // indirect
 	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
 	github.com/hugolify/hugolify-admin v0.9.1 // indirect
-	github.com/hugolify/hugolify-theme v1.27.0 // indirect
+	github.com/hugolify/hugolify-theme v1.27.3 // indirect
 	github.com/hugolify/medicalify-theme v0.0.0-20260122153325-c6977c72eada // indirect
-	github.com/midzer/tobii v3.1.2+incompatible // indirect
+	github.com/midzer/tobii v3.1.3+incompatible // indirect
 	github.com/orestbida/cookieconsent v3.1.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.8+incompatible // indirect
 	github.com/twbs/icons v1.13.1 // indirect

@@ -1,10 +1,10 @@
 .hero
     a::before
-        @include icon("telephone")
         margin-right: .5rem
-    a + a::before
+    [href^="tel"]::before
+        @include icon("telephone")
+    [href^="mailto"]::before
         @include icon("envelope-at")
-    
 
     @include media-breakpoint-down(md)
         h1

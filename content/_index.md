@@ -9,8 +9,10 @@ hero:
       text: 05 57 81 57 90
     - url: 'mailto:contact@lechaban.fr'
       text: contact@lechaban.fr
+    - url: https://www.doctolib.fr/centre-dentaire/bordeaux/le-chaban-cabinet-dentaire-bordeaux
+      text: Doctolib
+      class: doctolib
 blocks:
-  
   - type: informations
     column: 3
     heading:
@@ -35,7 +37,7 @@ blocks:
           text: <span>Prendre rendez-vous sur</span> Doctolib
           blank: true
       - title: Dr Eloïse Augoyard
-        text: Chirurgien-dentiste pédiatrique
+        text: Chirurgien-dentiste pédiatrique exclusive
         cta:
           url: https://www.doctolib.fr/dentiste/cenon/eloise-augoyard
           text: <span>Prendre rendez-vous sur</span> Doctolib
