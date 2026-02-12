@@ -8,10 +8,11 @@ hero:
   ctas:
     - url: 'tel:+33557815790'
       text: 05 57 81 57 90
-      class: btn-phone
     - url: 'mailto:contact@lechaban.fr'
       text: contact@lechaban.fr
-      class: btn-email
+    - url: https://www.doctolib.fr/centre-dentaire/bordeaux/le-chaban-cabinet-dentaire-bordeaux
+      text: Prendre rendez-vous
+      class: btn-doctolib
 
 blocks:
   

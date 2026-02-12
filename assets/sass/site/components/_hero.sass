@@ -1,4 +1,11 @@
 .hero
+    a::before
+        margin-right: .5rem
+    [href^="tel"]::before
+        @include icon("telephone")
+    [href^="mailto"]::before
+        @include icon("envelope-at")
+
     @include media-breakpoint-down(md)
         h1
             font-size: 1.6rem

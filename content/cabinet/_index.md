@@ -8,7 +8,7 @@ blocks:
   - type: editorial
     direction: rtl
     image:
-      src: /images/uploads/lechaban-facade.jpg
+      src: /images/uploads/escalier.jpg
     title: À Bordeaux, depuis 1970
     text: >-
       Ancré au cœur de Bordeaux depuis 1970, le cabinet dentaire Le Chaban s’appuie sur une expertise historique pour offrir des soins d’excellence à ses patients. Situé au 66 Boulevard du Maréchal Leclerc, notre établissement perpétue depuis plus de cinquante ans un engagement constant pour la santé bucco-dentaire, alliant expérience clinique et accueil privilégié.
