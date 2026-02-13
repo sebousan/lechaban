@@ -1,8 +1,11 @@
 ---
 isIndex: true
-title: Le cabinet dentaire
+title: Cabinet dentaire Le Chaban
+url: cabinet-dentaire-a-bordeaux
 hero:
-  title: Le cabinet dentaire
+  title: Cabinet dentaire Le Chaban
+  text: >-
+    Une expertise historique et des soins de haute technicité pour votre santé bucco-dentaire au cœur de Bordeaux.
   align: center
 blocks:
   - type: editorial
@@ -11,7 +14,10 @@ blocks:
       src: /images/uploads/escalier.jpg
     title: À Bordeaux, depuis 1970
     text: >-
-      Ancré au cœur de Bordeaux depuis 1970, le cabinet dentaire Le Chaban s’appuie sur une expertise historique pour offrir des soins d’excellence à ses patients. Situé au 66 Boulevard du Maréchal Leclerc, notre établissement perpétue depuis plus de cinquante ans un engagement constant pour la santé bucco-dentaire, alliant expérience clinique et accueil privilégié.
+      Ancré au cœur de Bordeaux depuis 1970, le cabinet dentaire Le Chaban s’appuie sur une expertise historique pour offrir des soins d’excellence à ses patients. 
+      
+      
+      Situé en face du stade Chaban Delmas, notre établissement perpétue depuis plus de cinquante ans un engagement constant pour la santé bucco-dentaire, alliant expérience clinique et accueil privilégié.
     ctas:
       - text: Contacter le secrétariat
         url: /contact/
@@ -23,7 +29,10 @@ blocks:
       src: /images/uploads/lachaban-22.jpeg
     title: Nos expertises
     text: >-
-      Spécialisé dans le traitement des maladies parodontales, la pose d’implants dentaires et la régénération osseuse pré-implantaire, le cabinet met à votre disposition les dernières innovations technologiques. Nos praticiens vous accompagnent à chaque étape de votre parcours de soin pour restaurer durablement la fonctionnalité et l’esthétique de votre sourire.
+      Spécialisé dans le traitement des maladies parodontales, la pose d’implants dentaires et la régénération osseuse pré-implantaire, le cabinet met à votre disposition les dernières innovations technologiques. 
+      
+      
+      Nos praticiens vous accompagnent à chaque étape de votre parcours de soin pour restaurer durablement la fonctionnalité et l’esthétique de votre sourire.
     ctas:
       - text: Contacter le secrétariat
         url: /contact/
@@ -49,6 +58,6 @@ blocks:
     images:
       - src: /images/uploads/lachaban-08.jpeg
         half: true
-      - src: /images/uploads/lachaban-10.jpeg
+      - src: /images/uploads/lachaban-17.jpeg
         half: true
 ---

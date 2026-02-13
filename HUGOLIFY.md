@@ -165,7 +165,7 @@ Configuration des navigateurs cibles pour autoprefixer
 
 ---
 
-## 📝 Conventions de Code
+## Conventions de Code
 
 ### Nommage
 

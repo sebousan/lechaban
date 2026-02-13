@@ -7,6 +7,7 @@
       "body",
       "br",
       "button",
+      "details",
       "div",
       "em",
       "figure",
@@ -31,6 +32,7 @@
       "source",
       "span",
       "strong",
+      "summary",
       "title",
       "ul"
     ],
@@ -41,6 +43,7 @@
       "block-editorial",
       "block-editorial-ltr",
       "block-editorial-rtl",
+      "block-faq",
       "block-images",
       "block-informations",
       "block-map",

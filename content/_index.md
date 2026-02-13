@@ -11,6 +11,7 @@ hero:
       text: contact@lechaban.fr
     - url: https://www.doctolib.fr/centre-dentaire/bordeaux/le-chaban-cabinet-dentaire-bordeaux
       text: Prendre rendez-vous
+      blank: true
       class: btn-doctolib
 blocks:
 
@@ -20,15 +21,20 @@ blocks:
       src: /images/uploads/lechaban-facade.jpg
     title: À Bordeaux, depuis 1970
     text: >-
-      Ancré au cœur de Bordeaux depuis 1970, le cabinet dentaire Le Chaban s’appuie sur une expertise historique pour offrir des soins d’excellence à ses patients. Situé au 66 Boulevard du Maréchal Leclerc, notre établissement perpétue depuis plus de cinquante ans un engagement constant pour la santé bucco-dentaire, alliant expérience clinique et accueil privilégié.
+      Ancré au cœur de Bordeaux depuis 1970, le cabinet dentaire Le Chaban s’appuie sur une expertise historique pour offrir des soins d’excellence à ses patients. 
+      
+      
+      Situé en face du stade Chaban Delmas, notre établissement perpétue depuis plus de cinquante ans un engagement constant pour la santé bucco-dentaire, alliant expérience clinique et accueil privilégié.
     ctas:
       - text: Découvrir le cabinet Le Chaban
-        url: /cabinet/
+        url: /cabinet-dentaire-a-bordeaux/
   
   - type: selected-persons
     section: persons
     heading:
       title: L’équipe de Chirurgien-dentiste
+      text: >-
+        Le cabinet dentaire Le Chaban est composé de chirurgiens-dentistes spécialisés dans différentes disciplines de la dentisterie. 
     layout: grid
     items:
       - Dr Anna Dutin

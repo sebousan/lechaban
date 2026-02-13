@@ -1,8 +1,8 @@
 links:
   - title: Le cabinet
-    url: /cabinet/
+    url: /cabinet-dentaire-a-bordeaux/
   - title: L’équipe
-    url: /equipe/
-  - title: Contact
+    url: /equipe-de-chirurgiens-dentistes/
+  - title: Contacter le secrétariat
     url: /contact/
     is_highlighted: true

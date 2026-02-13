@@ -1,13 +1,13 @@
 _merge: deep
 page:
   expertises: /consultations/:slug/
-  persons: /equipe/:slug/
+  persons: /equipe-de-chirurgiens-dentistes/:slug/
 section:
   expertises: /consultations/
-  persons: /equipe/
+  persons: /equipe-de-chirurgiens-dentistes/
 taxonomy:
-  persons_expertises: /equipe/expertises/
-  persons_statutes: /equipe/statuts/
+  persons_expertises: /equipe-de-chirurgiens-dentistes/expertises/
+  persons_statutes: /equipe-de-chirurgiens-dentistes/statuts/
 term:
-  persons_expertises: /equipe/expertises/:slug/
-  persons_statutes: /equipe/statuts/:slug/
+  persons_expertises: /equipe-de-chirurgiens-dentistes/expertises/:slug/
+  persons_statutes: /equipe-de-chirurgiens-dentistes/statuts/:slug/
