@@ -8,6 +8,7 @@ logo:
   footer: '/assets/images/logo.svg'
 
 # Javascript
+# animation: true
 carousel: false
 bootstrap:
   collapse: false
@@ -15,6 +16,8 @@ bootstrap:
   modal: false
   offcanvas: false
 map: true
+# parallax: 
+#   enable: true
 
 # Admin
 admin:

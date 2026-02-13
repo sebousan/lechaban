@@ -25,6 +25,21 @@ blocks:
       
       
       Situé en face du stade Chaban Delmas, notre établissement perpétue depuis plus de cinquante ans un engagement constant pour la santé bucco-dentaire, alliant expérience clinique et accueil privilégié.
+
+
+      **Nos expertises**
+
+      - Endodontie
+      
+      - Esthétique
+      
+      - Implantologie
+      
+      - Occlusodontie
+      
+      - Parodontie
+      
+      - Pédodontie
     ctas:
       - text: Découvrir le cabinet Le Chaban
         url: /cabinet-dentaire-a-bordeaux/
