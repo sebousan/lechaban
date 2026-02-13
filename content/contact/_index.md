@@ -1,9 +1,9 @@
 ---
-isIndex: true
+isPage: true
 title: Contact
 hero:
   title: Contacter le secrétariat
-  text: Du Lundi au Vendredi de 9h00 à 12h30 et de 14h00 à 18h00
+  text: Du Lundi au Vendredi de 9h00 à 12h00 et de 14h00 à 18h00
   align: center
   ctas:
     - url: 'tel:+33557815790'
@@ -43,7 +43,7 @@ blocks:
     items:
       - summary: "Comment prendre rendez-vous au cabinet dentaire Le Chaban à Bordeaux ?"
         text: >-
-          Vous pouvez prendre rendez-vous directement sur **Doctolib** ou en contactant notre secrétariat par téléphone au **05 57 81 57 90**. Le cabinet est ouvert du lundi au vendredi de 9h00 à 12h30 et de 14h00 à 18h00.
+          Vous pouvez prendre rendez-vous directement sur **Doctolib** ou en contactant notre secrétariat par téléphone au **05 57 81 57 90**. Le cabinet est ouvert du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 18h00.
       - summary: "Quelles sont les spécialités pratiquées au cabinet ?"
         text: >-
           Nos praticiens à Bordeaux sont spécialisés en **soins dentaires**, **implantologie**, **orthodontie**, **pédodontie** (soins pour enfants), **esthétique dentaire** et **parodontie**.

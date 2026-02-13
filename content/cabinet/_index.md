@@ -1,5 +1,5 @@
 ---
-isIndex: true
+isPage: true
 title: Cabinet dentaire Le Chaban
 url: cabinet-dentaire-a-bordeaux
 hero:
