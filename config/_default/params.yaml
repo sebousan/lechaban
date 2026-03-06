@@ -22,6 +22,21 @@ map: true
 # Admin
 admin:
 
+  collections:
+    persons:
+      fields:
+        - is_not_index
+        - draft
+        - title_page
+        - description
+        - relation:
+            collection: persons_statutes
+            multiple: false
+        - featured_image
+        - contact
+        - diplomas
+        - blocks
+
   # blocks
   blocks:
     enable:

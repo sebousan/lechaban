@@ -61,7 +61,7 @@ blocks:
   - type: editorial
     direction: ltr
     image:
-      src: /images/uploads/lachaban-07.jpeg
+      src: /images/uploads/IMG_0740.jpg
     title: Un secrétariat à votre écoute
     text: >-
       Notre équipe de secrétariat vous accueille du lundi au vendredi pour répondre à vos questions, prendre vos rendez-vous et vous accompagner dans toutes vos démarches administratives.

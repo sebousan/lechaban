@@ -15,6 +15,12 @@ hero:
       class: btn-doctolib
 
 blocks:
+
+  - type: figure
+    offset: center
+    grid: large
+    figure:
+      src: /images/uploads/IMG_0728.jpg
   
   - type: map
     show_places: false
@@ -37,7 +43,14 @@ blocks:
         title: Bus H, 4 et 9
         text: Arrêt Stade Chaban Delmas
 
+  - type: figure
+    offset: center
+    grid: medium
+    figure:
+      src: /images/uploads/IMG_0535.jpg
+
   - type: faq
+    background: true
     heading:
       title: Questions fréquentes
     items:
