@@ -18,6 +18,13 @@ blocks:
     text: >-
       Le Dr Eloïse Augoyard accueille vos enfants dans une salle de soins spécialement conçue pour eux. Équipée de matériel adapté aux plus jeunes, cette salle offre un environnement rassurant et ludique qui permet aux enfants de se sentir en confiance dès leur arrivée. Chaque détail a été pensé pour transformer la visite chez le dentiste en une expérience positive et apaisante.
     image:
+      src: /images/uploads/lechaban-20.jpeg
+
+
+  - type: figure
+    offset: center
+    grid: large
+    figure:
       src: /images/uploads/IMG_0936.jpg
 
   - type: figure
