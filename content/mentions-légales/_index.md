@@ -29,3 +29,8 @@ Un Cinq\
 
 **Solution** \
 Ce site a été conçu avec {{< blank_link text="Medicalify" link="https://www.medicalify.io/" >}}, une solution open-source basée sur {{< blank_link text="Hugolify" link="https://www.hugolify.io/" >}}, qui permet de concevoir un site le plus écologique possible et au plus proche des critères d’accessibilité. Cette solution est dédiée à l’univers médical.
+
+## Crédits photographiques
+
+- Jaasp
+- Le Chaban

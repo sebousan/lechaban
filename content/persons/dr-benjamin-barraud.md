@@ -3,9 +3,13 @@ isIndex: false
 draft: false
 weight: 10
 title: Dr Benjamin Barraud
+description: >-
+  Chirurgien-dentiste spécialisé en parodontologie et implantologie, le Dr Benjamin Barraud accueille ses patients dans son cabinet à Bordeaux.
 persons_statutes: Chirurgien-dentiste
 contact:
   doctolib: https://www.doctolib.fr/dentiste/bordeaux/benjamin-barraud
+image:
+  src: /images/uploads/IMG_0669.jpg
 diplomas: >-
   * Docteur en Chirurgie Dentaire
 
@@ -20,7 +24,17 @@ diplomas: >-
   * DU d’Implantologie
   
   * Diplôme de Spécialité de l’European Federation of Periodontology
----
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus massa ac massa dapibus, a scelerisque nunc pellentesque. Sed eu commodo velit, et tincidunt metus. Vestibulum feugiat convallis ligula, eget mollis diam fermentum ultrices. Cras porttitor cursus nisi quis faucibus.
+blocks:
+  - type: editorial
+    title: Une salle lumineuse et moderne
+    text: >-
+      Le Dr Benjamin Barraud accueille ses patients dans une salle de soins moderne et lumineuse, conçue pour offrir un confort optimal. Équipée des dernières technologies en matière de dentisterie, cette salle permet de réaliser tous les soins dans les meilleures conditions, dans un environnement apaisant et professionnel.
+    image:
+      src: /images/uploads/IMG_0669.jpg
 
-Cras vel libero ipsum. Aliquam erat volutpat. Sed ultrices magna convallis, porta libero eget, lobortis diam. Sed ac est id turpis porta pulvinar at vitae magna. Etiam condimentum blandit metus at pretium. Vivamus efficitur, dolor eget congue tempor, dolor orci cursus velit, et venenatis tellus urna sit amet libero.
+  - type: figure
+    offset: center
+    grid: small
+    figure:
+      src: /images/uploads/IMG_0717-2.jpg
+---
