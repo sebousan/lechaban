@@ -9,7 +9,7 @@ persons_statutes: Chirurgien-dentiste
 contact:
   doctolib: https://www.doctolib.fr/dentiste/bordeaux/benjamin-barraud
 image:
-  src: /images/uploads/IMG_0669.jpg
+  src: /images/uploads/benjamin-barraud-3.jpg
 diplomas: >-
   * Docteur en Chirurgie Dentaire
 
@@ -26,11 +26,17 @@ diplomas: >-
   * Diplôme de Spécialité de l’European Federation of Periodontology
 blocks:
   - type: editorial
-    title: Une salle lumineuse et moderne
+    title: Une salle accessible PMR, lumineuse et moderne
     text: >-
       Le Dr Benjamin Barraud accueille ses patients dans une salle de soins moderne et lumineuse, conçue pour offrir un confort optimal. Équipée des dernières technologies en matière de dentisterie, cette salle permet de réaliser tous les soins dans les meilleures conditions, dans un environnement apaisant et professionnel.
     image:
       src: /images/uploads/IMG_0669.jpg
+
+  - type: figure
+    grid: large
+    offset: center
+    figure:
+      src: /images/uploads/lechaban-18.jpeg
 
   - type: figure
     offset: center

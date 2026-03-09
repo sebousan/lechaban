@@ -18,7 +18,7 @@ blocks:
   - type: editorial
     direction: rtl
     image:
-      src: /images/uploads/lechaban-facade.jpg
+      src: /images/uploads/lechaban-08.jpeg
     title: À Bordeaux, depuis 1970
     text: >-
       Ancré au cœur de Bordeaux depuis 1970, le cabinet dentaire Le Chaban s’appuie sur une expertise historique pour offrir des soins d’excellence à ses patients. 

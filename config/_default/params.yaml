@@ -4,8 +4,14 @@ _merge: deep
 # tile: 1
 
 # Images
+image:
+  retina: 
+    desktop: true
 logo:
   footer: '/assets/images/logo.svg'
+persons: 
+  image:
+    desktop: 636x424
 
 # Javascript
 # animation: true

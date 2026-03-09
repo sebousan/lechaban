@@ -6,7 +6,9 @@ https://www.medicalify.io
 
 ## Modules
 
-- github.com/hugolify/medicalify-theme
+- github.com/uncinq/medicalify-theme
+- github.com/hugolify/hugolify-theme-persons
+- github.com/hugolify/hugolify-theme-persons-statutes
 - github.com/hugolify/hugolify-theme
 - github.com/hugolify/hugolify-admin
 

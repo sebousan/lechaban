@@ -26,7 +26,7 @@ blocks:
     grid: medium
     direction: ltr
     image:
-      src: /images/uploads/lachaban-22.jpeg
+      src: /images/uploads/lechaban-22.jpeg
     title: Nos expertises
     text: >-
       Spécialisé dans le traitement des maladies parodontales, la pose d’implants dentaires et la régénération osseuse pré-implantaire, le cabinet met à votre disposition les dernières innovations technologiques. 
@@ -51,13 +51,19 @@ blocks:
   - type: figure
     grid: large
     offset: center
-    image:
-      src: /images/uploads/lachaban-18.jpeg
+    figure:
+      src: /images/uploads/lechaban-18.jpeg
   
   - type: images
     images:
-      - src: /images/uploads/lachaban-08.jpeg
+      - src: /images/uploads/lechaban-facade.jpg
         half: true
-      - src: /images/uploads/lachaban-17.jpeg
+      - src: /images/uploads/lechaban-17.jpeg
         half: true
+
+  - type: figure
+    grid: medium
+    offset: end
+    figure:
+      src: /images/uploads/IMG_0643.jpg
 ---
