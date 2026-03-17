@@ -40,7 +40,7 @@ admin:
             multiple: false
         - featured_image
         - contact
-        - diplomas
+        # - diplomas
         - blocks
 
   # blocks

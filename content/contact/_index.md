@@ -20,7 +20,7 @@ blocks:
     offset: center
     grid: large
     figure:
-      src: /images/uploads/IMG_0728.jpg
+      src: /images/uploads/salle-accueil-landscape.jpg
   
   - type: map
     show_places: false
@@ -47,7 +47,7 @@ blocks:
     offset: center
     grid: medium
     figure:
-      src: /images/uploads/IMG_0535.jpg
+      src: /images/uploads/salle-attente.jpg
 
   - type: faq
     background: true

@@ -1,0 +1,2633 @@
+backend:
+  branch: main
+  name: git-gateway
+
+display_url: "https://www.lechaban.fr/"
+
+local_backend: true
+locale: fr
+logo: 
+  src: "./assets/logo.svg"
+  show_in_header: true
+media_folder: /assets/images/uploads
+
+public_folder: /images/uploads
+publish_mode: simple
+slug:
+  encoding: "unicode"
+  clean_accents: false
+  sanitize_replacement: "-"
+
+collections:
+- description: Toutes les config
+  editor:
+    preview: false
+  files:
+  - fields:
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        widget: string
+      - hint: 'URL absolue (ex : https://www.example.com)'
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - i18n: true
+        label: Nouvelle fenêtre ?
+        name: blank
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Mis en avant ?
+        name: is_highlighted
+        required: false
+        widget: boolean
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - hint: 'URL absolue (ex : https://www.example.com)'
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          widget: boolean
+        i18n: true
+        label: Liens
+        label_singular: Lien
+        minimize_collapsed: true
+        name: links
+        required: false
+        widget: list
+      i18n: true
+      label: Liens
+      label_singular: Lien
+      minimize_collapsed: true
+      name: links
+      required: false
+      widget: list
+    file: data/menu/primary.yml
+    i18n: true
+    label: Navigation principale
+    name: primary
+  - fields:
+    - i18n: true
+      label: Titre
+      name: title
+      required: false
+      widget: string
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        widget: string
+      - hint: 'URL absolue (ex : https://www.example.com)'
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - i18n: true
+        label: Nouvelle fenêtre ?
+        name: blank
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Mis en avant ?
+        name: is_highlighted
+        required: false
+        widget: boolean
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - hint: 'URL absolue (ex : https://www.example.com)'
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          widget: boolean
+        i18n: true
+        label: Liens
+        label_singular: Lien
+        minimize_collapsed: true
+        name: links
+        required: false
+        widget: list
+      i18n: true
+      label: Liens
+      label_singular: Lien
+      minimize_collapsed: true
+      name: links
+      required: false
+      widget: list
+    file: data/menu/secondary.yml
+    i18n: true
+    label: Navigation secondaire
+    name: secondary
+  - fields:
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        widget: string
+      - hint: 'URL absolue (ex : https://www.example.com)'
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - i18n: true
+        label: Nouvelle fenêtre ?
+        name: blank
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Mis en avant ?
+        name: is_highlighted
+        required: false
+        widget: boolean
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - hint: 'URL absolue (ex : https://www.example.com)'
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          widget: boolean
+        i18n: true
+        label: Liens
+        label_singular: Lien
+        minimize_collapsed: true
+        name: links
+        required: false
+        widget: list
+      i18n: true
+      label: Liens
+      label_singular: Lien
+      minimize_collapsed: true
+      name: links
+      required: false
+      widget: list
+    file: data/menu/legal.yml
+    i18n: true
+    label: Navigation légales (mentions, politiques…)
+    name: legal
+  - fields:
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        widget: string
+      - hint: 'URL absolue (ex : https://www.example.com)'
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - i18n: true
+        label: Nouvelle fenêtre ?
+        name: blank
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Mis en avant ?
+        name: is_highlighted
+        required: false
+        widget: boolean
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - hint: 'URL absolue (ex : https://www.example.com)'
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          widget: boolean
+        i18n: true
+        label: Liens
+        label_singular: Lien
+        minimize_collapsed: true
+        name: links
+        required: false
+        widget: list
+      i18n: true
+      label: Liens
+      label_singular: Lien
+      minimize_collapsed: true
+      name: links
+      required: false
+      widget: list
+    file: data/menu/social.yml
+    i18n: true
+    label: Navigation réseaux sociaux
+    name: social
+  - fields:
+    - buttons:
+      - bold
+      - italic
+      - link
+      - bulleted-list
+      editor_components: []
+      i18n: true
+      label: Texte
+      minimal: true
+      modes:
+      - rich_text
+      name: text
+      required: false
+      widget: markdown
+    - default: light
+      i18n: true
+      label: État
+      name: state
+      options:
+      - label: Danger
+        value: danger
+      - label: Dark
+        value: dark
+      - label: Info
+        value: info
+      - label: Light
+        value: light
+      - label: Primary
+        value: primary
+      - label: Secondary
+        value: secondary
+      - label: Success
+        value: success
+      - label: Warning
+        value: warning
+      required: true
+      widget: select
+    file: data/banner.yml
+    i18n: true
+    label: Bannière d’information en haut du site
+    name: banner
+  - fields:
+    - i18n: true
+      label: Titre
+      name: title
+      required: false
+      widget: string
+    - i18n: true
+      label: Texte
+      name: text
+      required: false
+      widget: text
+    - collapsed: true
+      fields:
+      - i18n: true
+        label: Texte
+        name: text
+        required: false
+        widget: string
+      - hint: 'URL absolue (ex : https://www.example.com)'
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - hint: Enter code lang (e.g. fr) if different of the current page language
+        i18n: true
+        label: Langue
+        name: lang
+        required: false
+        widget: string
+      - i18n: true
+        label: Nouvelle fenêtre ?
+        name: blank
+        required: false
+        widget: boolean
+      i18n: true
+      label: CTA
+      name: cta
+      required: false
+      widget: object
+    file: data/footer.yml
+    i18n: true
+    label: Texte d’information en bas du site
+    name: footer
+  - fields:
+    - i18n: true
+      label: Titre
+      name: title
+      required: false
+      widget: string
+    - hint: Affiché dans les onglets, les résultats de recherche et l’aperçu des SMS/messages/réseaux sociaux
+      i18n: true
+      label: Description
+      name: description
+      required: false
+      widget: text
+    - choose_url: false
+      hint: Image utilisée pour les réseaux sociaux et les liens
+      i18n: true
+      label: Image de partage
+      media_folder: /static/assets/images/seo
+      media_library:
+        config:
+          max_file_size: '500000'
+      name: image
+      public_folder: /assets/images/seo
+      required: false
+      widget: image
+    - hint: Nom d’utilisateur
+      i18n: true
+      label: Twitter/X
+      name: twitter
+      required: false
+      widget: string
+    file: data/seo.yml
+    i18n: true
+    label: 'Référencement - SEO (Search Engine Optimization) global'
+    name: seo
+  i18n:
+    structure: single_file
+  label: Config
+  name: config
+- create: false
+  description: Toutes les pages index
+  editor:
+    preview: false
+  fields:
+  - default: true
+    i18n: true
+    label: is index
+    name: noname
+    required: false
+    widget: hidden
+  - default: true
+    i18n: true
+    label: Brouillon
+    name: draft
+    required: false
+    widget: boolean
+  - hint: Affiché dans les onglets, les résultats de recherche et l’aperçu des SMS/messages/réseaux sociaux
+    i18n: true
+    label: Titre de la page
+    name: title
+    required: true
+    widget: string
+  - hint: Affiché dans les onglets, les résultats de recherche et l’aperçu des SMS/messages/réseaux sociaux
+    i18n: true
+    label: Description
+    name: description
+    required: false
+    widget: text
+  - collapsed: true
+    fields:
+    - choose_url: false
+      hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+      i18n: true
+      label: Image
+      media_folder: /assets/images/uploads
+      media_library:
+        config:
+          max_file_size: '700000'
+      name: src
+      public_folder: /images/uploads
+      required: false
+      widget: image
+    - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+      i18n: true
+      label: Texte alternatif
+      name: alt
+      required: false
+      widget: string
+    hint: Affiché dans les onglets, les résultats de recherche et l’aperçu des SMS/messages/réseaux sociaux
+    i18n: true
+    label: Image principale
+    name: image
+    required: false
+    widget: object
+  - collapsed: true
+    fields:
+    - i18n: true
+      label: Sur-titre
+      name: surtitle
+      required: false
+      widget: string
+    - i18n: true
+      label: Titre
+      name: title
+      required: false
+      widget: string
+    - buttons:
+      - bold
+      - italic
+      - link
+      - bulleted-list
+      editor_components: []
+      i18n: true
+      label: Texte
+      minimal: true
+      modes:
+      - rich_text
+      name: text
+      required: false
+      widget: markdown
+    - collapsed: true
+      fields:
+      - i18n: true
+        label: Texte
+        name: text
+        required: false
+        widget: string
+      - hint: 'URL absolue (ex : https://www.example.com)'
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - hint: Enter code lang (e.g. fr) if different of the current page language
+        i18n: true
+        label: Langue
+        name: lang
+        required: false
+        widget: string
+      - i18n: true
+        label: Nouvelle fenêtre ?
+        name: blank
+        required: false
+        widget: boolean
+      i18n: true
+      label: CTAs
+      label_singular: CTA
+      minimize_collapsed: true
+      name: ctas
+      required: false
+      widget: list
+    - collapsed: true
+      fields:
+      - choose_url: false
+        hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+        i18n: true
+        label: Image
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '700000'
+        name: src
+        public_folder: /images/uploads
+        required: false
+        widget: image
+      - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+        i18n: true
+        label: Texte alternatif
+        name: alt
+        required: false
+        widget: string
+      - buttons:
+        - link
+        editor_components: []
+        i18n: true
+        label: Crédit
+        minimal: true
+        modes:
+        - rich_text
+        name: credit
+        required: false
+        widget: markdown
+      - i18n: true
+        label: En fond ?
+        name: background
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Assombrir?
+        name: darken
+        required: false
+        widget: boolean
+      i18n: true
+      label: Image
+      name: image
+      required: false
+      widget: object
+    - collapsed: true
+      fields:
+      - accept: video/mp4
+        choose_url: false
+        hint: Vidéo au format MP4
+        i18n: true
+        label: MP4
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '5000000'
+        name: mp4
+        public_folder: /images/uploads
+        required: false
+        widget: file
+      - accept: video/webm
+        choose_url: false
+        hint: Vidéo au format WEBM
+        i18n: true
+        label: WEBM
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '5000000'
+        name: webm
+        public_folder: /images/uploads
+        required: false
+        widget: file
+      - accept: video/mp4
+        choose_url: false
+        hint: Vidéo au format MP4 pour mobile seulement
+        i18n: true
+        label: MP4 (Mobile)
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '5000000'
+        name: mp4_mobile
+        public_folder: /images/uploads
+        required: false
+        widget: file
+      - accept: video/webm
+        choose_url: false
+        hint: Vidéo au format WEBM pour mobile seulement
+        i18n: true
+        label: WEBM (Mobile)
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '5000000'
+        name: webm_mobile
+        public_folder: /images/uploads
+        required: false
+        widget: file
+      - default: true
+        i18n: duplicate
+        label: Contrôles
+        name: controls
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: Autoplay
+        name: autoplay
+        required: false
+        widget: boolean
+      - default: false
+        i18n: true
+        label: Boucle
+        name: loop
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Légende
+        name: legend
+        required: false
+        widget: string
+      - i18n: true
+        label: Transcription
+        name: transcription
+        required: false
+        widget: text
+      - i18n: true
+        label: En fond ?
+        name: background
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Assombrir?
+        name: darken
+        required: false
+        widget: boolean
+      - choose_url: false
+        hint: Image de présentation pour la vidéo
+        i18n: true
+        label: Poster
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '700000'
+        name: poster
+        public_folder: /images/uploads
+        required: false
+        widget: image
+      i18n: true
+      label: Vidéo
+      name: video
+      required: false
+      widget: object
+    - i18n: true
+      label: Alignement
+      name: align
+      options:
+      - label: Start
+        value: start
+      - label: Center
+        value: center
+      - label: End
+        value: end
+      required: false
+      widget: select
+    i18n: true
+    label: Hero
+    name: hero
+    required: false
+    widget: object
+  - collapsed: false
+    i18n: true
+    label: Blocs
+    label_singular: Bloc
+    minimize_collapsed: true
+    name: blocks
+    required: false
+    types:
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Direction
+        name: direction
+        options:
+        - label: Texte à gauche / image à droite
+          value: ltr
+        - label: Image à gauche / texte à droite
+          value: rtl
+        required: false
+        widget: select
+      - i18n: true
+        label: Sur-titre
+        name: surtitle
+        required: false
+        widget: string
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        widget: string
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        editor_components: []
+        i18n: true
+        label: Texte
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        widget: markdown
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          widget: string
+        - hint: 'URL absolue (ex : https://www.example.com)'
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - hint: Enter code lang (e.g. fr) if different of the current page language
+          i18n: true
+          label: Langue
+          name: lang
+          required: false
+          widget: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          widget: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        minimize_collapsed: true
+        name: ctas
+        required: false
+        widget: list
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: true
+          label: Image
+          media_folder: /assets/images/uploads
+          media_library:
+            config:
+              max_file_size: '700000'
+          name: src
+          public_folder: /images/uploads
+          required: false
+          widget: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          widget: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          widget: markdown
+        i18n: true
+        label: Image
+        name: image
+        required: false
+        widget: object
+      - default: false
+        i18n: duplicate
+        label: Avec un fond différent ?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Éditorial
+      name: editorial
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: true
+          label: Image
+          media_folder: /assets/images/uploads
+          media_library:
+            config:
+              max_file_size: '700000'
+          name: src
+          public_folder: /images/uploads
+          required: false
+          widget: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          widget: string
+        - i18n: true
+          label: Légende
+          name: legend
+          required: false
+          widget: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          widget: markdown
+        - hint: Ajoute un faux navigateur autour de l’image
+          i18n: true
+          label: Capture d’écran ?
+          name: screenshot
+          required: false
+          widget: boolean
+        i18n: true
+        label: Figure
+        name: figure
+        required: false
+        widget: object
+      - default: large
+        i18n: true
+        label: Grid
+        name: grid
+        options:
+        - label: Small
+          value: small
+        - label: Medium
+          value: medium
+        - label: Large
+          value: large
+        - label: Container
+          value: container
+        - label: Full
+          value: full
+        required: true
+        widget: select
+      - i18n: true
+        label: Offset
+        name: offset
+        options:
+        - label: Start
+          value: start
+        - label: Center
+          value: center
+        - label: End
+          value: end
+        required: false
+        widget: select
+      - default: false
+        i18n: duplicate
+        label: Avec un fond différent ?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Figure
+      name: figure
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: 3
+        hint: Nombre de colonnes affichées sur ordinateur
+        i18n: duplicate
+        label: Colonne
+        max: 6
+        min: 1
+        name: column
+        required: false
+        step: 1
+        value_type: int
+        widget: number
+      - collapsed: true
+        fields:
+        - hint: Nom de l’icon provenant de https://icons.getbootstrap.com/
+          i18n: duplicate
+          label: Icone
+          name: icon
+          required: false
+          widget: string
+        - collapsed: true
+          fields:
+          - choose_url: false
+            hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+            i18n: true
+            label: Image
+            media_folder: /assets/images/uploads
+            media_library:
+              config:
+                max_file_size: '700000'
+            name: src
+            public_folder: /images/uploads
+            required: false
+            widget: image
+          - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+            i18n: true
+            label: Texte alternatif
+            name: alt
+            required: false
+            widget: string
+          - hint: Positionne au centre et n’est pas recadré
+            i18n: true
+            label: Logo ?
+            name: isLogo
+            required: false
+            widget: boolean
+          i18n: true
+          label: Image
+          name: image
+          required: false
+          widget: object
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          widget: string
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            widget: string
+          - hint: 'URL absolue (ex : https://www.example.com)'
+            i18n: true
+            label: URL
+            name: url
+            required: false
+            widget: string
+          - hint: Enter code lang (e.g. fr) if different of the current page language
+            i18n: true
+            label: Langue
+            name: lang
+            required: false
+            widget: string
+          - i18n: true
+            label: Nouvelle fenêtre ?
+            name: blank
+            required: false
+            widget: boolean
+          i18n: true
+          label: CTA
+          name: cta
+          required: false
+          widget: object
+        i18n: true
+        label: Items
+        label_singular: Item
+        minimize_collapsed: true
+        name: items
+        required: false
+        widget: list
+      - default: false
+        i18n: duplicate
+        label: Avec un fond différent ?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Informations
+      name: informations
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: false
+        hint: Only if you have places already saved (this will disable the marker below)
+        i18n: true
+        label: Affiche tous les lieux ?
+        name: show_places
+        required: false
+        widget: boolean
+      - default: '{"type": "Point", "coordinates": [2.3482818864606827, 48.85400956974931]}'
+        i18n: true
+        label: Lieu
+        name: location
+        widget: map
+      - default: 13
+        i18n: duplicate
+        label: Zoom
+        max: 20
+        min: 1
+        name: zoom
+        required: false
+        step: 1
+        value_type: int
+        widget: number
+      - default: large
+        i18n: true
+        label: Grid
+        name: grid
+        options:
+        - label: Small
+          value: small
+        - label: Medium
+          value: medium
+        - label: Large
+          value: large
+        - label: Container
+          value: container
+        - label: Full
+          value: full
+        required: true
+        widget: select
+      - default: false
+        i18n: duplicate
+        label: Avec un fond différent ?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Carte
+      name: map
+      required: false
+      widget: object
+    widget: list
+  filter:
+    field: isIndex
+    value: true
+  folder: content
+  i18n: true
+  label: Index
+  label_singular: Index
+  name: indexes
+  nested:
+    depth: 2
+- create: true
+  description: Toutes les pages
+  editor:
+    preview: false
+  fields:
+  - default: true
+    i18n: true
+    label: is page
+    name: isPage
+    required: false
+    widget: hidden
+  - default: true
+    i18n: true
+    label: Brouillon
+    name: draft
+    required: false
+    widget: boolean
+  - hint: Affiché dans les onglets, les résultats de recherche et l’aperçu des SMS/messages/réseaux sociaux
+    i18n: true
+    label: Titre de la page
+    name: title
+    required: true
+    widget: string
+  - hint: Affiché dans les onglets, les résultats de recherche et l’aperçu des SMS/messages/réseaux sociaux
+    i18n: true
+    label: Description
+    name: description
+    required: false
+    widget: text
+  - collapsed: true
+    fields:
+    - choose_url: false
+      hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+      i18n: true
+      label: Image
+      media_folder: /assets/images/uploads
+      media_library:
+        config:
+          max_file_size: '700000'
+      name: src
+      public_folder: /images/uploads
+      required: false
+      widget: image
+    - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+      i18n: true
+      label: Texte alternatif
+      name: alt
+      required: false
+      widget: string
+    hint: Affiché dans les onglets, les résultats de recherche et l’aperçu des SMS/messages/réseaux sociaux
+    i18n: true
+    label: Image principale
+    name: image
+    required: false
+    widget: object
+  - collapsed: true
+    fields:
+    - i18n: true
+      label: Sur-titre
+      name: surtitle
+      required: false
+      widget: string
+    - i18n: true
+      label: Titre
+      name: title
+      required: false
+      widget: string
+    - buttons:
+      - bold
+      - italic
+      - link
+      - bulleted-list
+      editor_components: []
+      i18n: true
+      label: Texte
+      minimal: true
+      modes:
+      - rich_text
+      name: text
+      required: false
+      widget: markdown
+    - collapsed: true
+      fields:
+      - i18n: true
+        label: Texte
+        name: text
+        required: false
+        widget: string
+      - hint: 'URL absolue (ex : https://www.example.com)'
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      - hint: Enter code lang (e.g. fr) if different of the current page language
+        i18n: true
+        label: Langue
+        name: lang
+        required: false
+        widget: string
+      - i18n: true
+        label: Nouvelle fenêtre ?
+        name: blank
+        required: false
+        widget: boolean
+      i18n: true
+      label: CTAs
+      label_singular: CTA
+      minimize_collapsed: true
+      name: ctas
+      required: false
+      widget: list
+    - collapsed: true
+      fields:
+      - choose_url: false
+        hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+        i18n: true
+        label: Image
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '700000'
+        name: src
+        public_folder: /images/uploads
+        required: false
+        widget: image
+      - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+        i18n: true
+        label: Texte alternatif
+        name: alt
+        required: false
+        widget: string
+      - buttons:
+        - link
+        editor_components: []
+        i18n: true
+        label: Crédit
+        minimal: true
+        modes:
+        - rich_text
+        name: credit
+        required: false
+        widget: markdown
+      - i18n: true
+        label: En fond ?
+        name: background
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Assombrir?
+        name: darken
+        required: false
+        widget: boolean
+      i18n: true
+      label: Image
+      name: image
+      required: false
+      widget: object
+    - collapsed: true
+      fields:
+      - accept: video/mp4
+        choose_url: false
+        hint: Vidéo au format MP4
+        i18n: true
+        label: MP4
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '5000000'
+        name: mp4
+        public_folder: /images/uploads
+        required: false
+        widget: file
+      - accept: video/webm
+        choose_url: false
+        hint: Vidéo au format WEBM
+        i18n: true
+        label: WEBM
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '5000000'
+        name: webm
+        public_folder: /images/uploads
+        required: false
+        widget: file
+      - accept: video/mp4
+        choose_url: false
+        hint: Vidéo au format MP4 pour mobile seulement
+        i18n: true
+        label: MP4 (Mobile)
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '5000000'
+        name: mp4_mobile
+        public_folder: /images/uploads
+        required: false
+        widget: file
+      - accept: video/webm
+        choose_url: false
+        hint: Vidéo au format WEBM pour mobile seulement
+        i18n: true
+        label: WEBM (Mobile)
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '5000000'
+        name: webm_mobile
+        public_folder: /images/uploads
+        required: false
+        widget: file
+      - default: true
+        i18n: duplicate
+        label: Contrôles
+        name: controls
+        required: false
+        widget: boolean
+      - default: false
+        i18n: duplicate
+        label: Autoplay
+        name: autoplay
+        required: false
+        widget: boolean
+      - default: false
+        i18n: true
+        label: Boucle
+        name: loop
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Légende
+        name: legend
+        required: false
+        widget: string
+      - i18n: true
+        label: Transcription
+        name: transcription
+        required: false
+        widget: text
+      - i18n: true
+        label: En fond ?
+        name: background
+        required: false
+        widget: boolean
+      - i18n: true
+        label: Assombrir?
+        name: darken
+        required: false
+        widget: boolean
+      - choose_url: false
+        hint: Image de présentation pour la vidéo
+        i18n: true
+        label: Poster
+        media_folder: /assets/images/uploads
+        media_library:
+          config:
+            max_file_size: '700000'
+        name: poster
+        public_folder: /images/uploads
+        required: false
+        widget: image
+      i18n: true
+      label: Vidéo
+      name: video
+      required: false
+      widget: object
+    - i18n: true
+      label: Alignement
+      name: align
+      options:
+      - label: Start
+        value: start
+      - label: Center
+        value: center
+      - label: End
+        value: end
+      required: false
+      widget: select
+    i18n: true
+    label: Hero
+    name: hero
+    required: false
+    widget: object
+  - i18n: true
+    label: Corps du texte
+    minimal: true
+    modes:
+    - rich_text
+    name: body
+    required: false
+    widget: markdown
+  - collapsed: false
+    i18n: true
+    label: Blocs
+    label_singular: Bloc
+    minimize_collapsed: true
+    name: blocks
+    required: false
+    types:
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Direction
+        name: direction
+        options:
+        - label: Texte à gauche / image à droite
+          value: ltr
+        - label: Image à gauche / texte à droite
+          value: rtl
+        required: false
+        widget: select
+      - i18n: true
+        label: Sur-titre
+        name: surtitle
+        required: false
+        widget: string
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        widget: string
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        editor_components: []
+        i18n: true
+        label: Texte
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        widget: markdown
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          widget: string
+        - hint: 'URL absolue (ex : https://www.example.com)'
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - hint: Enter code lang (e.g. fr) if different of the current page language
+          i18n: true
+          label: Langue
+          name: lang
+          required: false
+          widget: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          widget: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        minimize_collapsed: true
+        name: ctas
+        required: false
+        widget: list
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: true
+          label: Image
+          media_folder: /assets/images/uploads
+          media_library:
+            config:
+              max_file_size: '700000'
+          name: src
+          public_folder: /images/uploads
+          required: false
+          widget: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          widget: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          widget: markdown
+        i18n: true
+        label: Image
+        name: image
+        required: false
+        widget: object
+      - default: false
+        i18n: duplicate
+        label: Avec un fond différent ?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Éditorial
+      name: editorial
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: true
+          label: Image
+          media_folder: /assets/images/uploads
+          media_library:
+            config:
+              max_file_size: '700000'
+          name: src
+          public_folder: /images/uploads
+          required: false
+          widget: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          widget: string
+        - i18n: true
+          label: Légende
+          name: legend
+          required: false
+          widget: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          widget: markdown
+        - hint: Ajoute un faux navigateur autour de l’image
+          i18n: true
+          label: Capture d’écran ?
+          name: screenshot
+          required: false
+          widget: boolean
+        i18n: true
+        label: Figure
+        name: figure
+        required: false
+        widget: object
+      - default: large
+        i18n: true
+        label: Grid
+        name: grid
+        options:
+        - label: Small
+          value: small
+        - label: Medium
+          value: medium
+        - label: Large
+          value: large
+        - label: Container
+          value: container
+        - label: Full
+          value: full
+        required: true
+        widget: select
+      - i18n: true
+        label: Offset
+        name: offset
+        options:
+        - label: Start
+          value: start
+        - label: Center
+          value: center
+        - label: End
+          value: end
+        required: false
+        widget: select
+      - default: false
+        i18n: duplicate
+        label: Avec un fond différent ?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Figure
+      name: figure
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: 3
+        hint: Nombre de colonnes affichées sur ordinateur
+        i18n: duplicate
+        label: Colonne
+        max: 6
+        min: 1
+        name: column
+        required: false
+        step: 1
+        value_type: int
+        widget: number
+      - collapsed: true
+        fields:
+        - hint: Nom de l’icon provenant de https://icons.getbootstrap.com/
+          i18n: duplicate
+          label: Icone
+          name: icon
+          required: false
+          widget: string
+        - collapsed: true
+          fields:
+          - choose_url: false
+            hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+            i18n: true
+            label: Image
+            media_folder: /assets/images/uploads
+            media_library:
+              config:
+                max_file_size: '700000'
+            name: src
+            public_folder: /images/uploads
+            required: false
+            widget: image
+          - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+            i18n: true
+            label: Texte alternatif
+            name: alt
+            required: false
+            widget: string
+          - hint: Positionne au centre et n’est pas recadré
+            i18n: true
+            label: Logo ?
+            name: isLogo
+            required: false
+            widget: boolean
+          i18n: true
+          label: Image
+          name: image
+          required: false
+          widget: object
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          widget: string
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            widget: string
+          - hint: 'URL absolue (ex : https://www.example.com)'
+            i18n: true
+            label: URL
+            name: url
+            required: false
+            widget: string
+          - hint: Enter code lang (e.g. fr) if different of the current page language
+            i18n: true
+            label: Langue
+            name: lang
+            required: false
+            widget: string
+          - i18n: true
+            label: Nouvelle fenêtre ?
+            name: blank
+            required: false
+            widget: boolean
+          i18n: true
+          label: CTA
+          name: cta
+          required: false
+          widget: object
+        i18n: true
+        label: Items
+        label_singular: Item
+        minimize_collapsed: true
+        name: items
+        required: false
+        widget: list
+      - default: false
+        i18n: duplicate
+        label: Avec un fond différent ?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Informations
+      name: informations
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: false
+        hint: Only if you have places already saved (this will disable the marker below)
+        i18n: true
+        label: Affiche tous les lieux ?
+        name: show_places
+        required: false
+        widget: boolean
+      - default: '{"type": "Point", "coordinates": [2.3482818864606827, 48.85400956974931]}'
+        i18n: true
+        label: Lieu
+        name: location
+        widget: map
+      - default: 13
+        i18n: duplicate
+        label: Zoom
+        max: 20
+        min: 1
+        name: zoom
+        required: false
+        step: 1
+        value_type: int
+        widget: number
+      - default: large
+        i18n: true
+        label: Grid
+        name: grid
+        options:
+        - label: Small
+          value: small
+        - label: Medium
+          value: medium
+        - label: Large
+          value: large
+        - label: Container
+          value: container
+        - label: Full
+          value: full
+        required: true
+        widget: select
+      - default: false
+        i18n: duplicate
+        label: Avec un fond différent ?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Carte
+      name: map
+      required: false
+      widget: object
+    widget: list
+  - hint: Leave empty to automate with the title. **Be carefull to SEO impact.**
+    i18n: true
+    label: Slug
+    name: slug
+    pattern:
+    - ^(|[a-z0-9-]+)$
+    - Contain only lowercase letters, numbers, and hyphens, with no spaces, accents, or special characters
+    required: false
+    widget: string
+  filter:
+    field: isPage
+    value: true
+  folder: content
+  i18n: true
+  label: Pages
+  label_singular: Page
+  media_folder: /assets/images/uploads
+  name: pages
+  nested:
+    depth: 5
+  path: '{{slug}}/_index'
+  slug: '{{slug}}'
+- create: true
+  description: Toutes les personnes
+  editor:
+    preview: false
+  fields:
+  - default: false
+    i18n: true
+    label: is not index
+    name: isIndex
+    required: false
+    widget: hidden
+  - default: true
+    i18n: true
+    label: Brouillon
+    name: draft
+    required: false
+    widget: boolean
+  - hint: Affiché dans les onglets, les résultats de recherche et l’aperçu des SMS/messages/réseaux sociaux
+    i18n: true
+    label: Titre de la page
+    name: title
+    required: true
+    widget: string
+  - hint: Affiché dans les onglets, les résultats de recherche et l’aperçu des SMS/messages/réseaux sociaux
+    i18n: true
+    label: Description
+    name: description
+    required: false
+    widget: text
+  - collection: persons_statutes
+    display_fields:
+    - title
+    i18n: true
+    label: Statuts
+    label_singular: Statut
+    name: persons_statutes
+    required: false
+    search_fields:
+    - title
+    value_field: '{{title}}'
+    widget: relation
+  - collapsed: true
+    fields:
+    - choose_url: false
+      hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+      i18n: true
+      label: Image
+      media_folder: /assets/images/uploads
+      media_library:
+        config:
+          max_file_size: '700000'
+      name: src
+      public_folder: /images/uploads
+      required: false
+      widget: image
+    - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+      i18n: true
+      label: Texte alternatif
+      name: alt
+      required: false
+      widget: string
+    hint: Affiché dans les onglets, les résultats de recherche et l’aperçu des SMS/messages/réseaux sociaux
+    i18n: true
+    label: Image principale
+    name: image
+    required: false
+    widget: object
+  - collapsed: true
+    fields:
+    - i18n: true
+      label: Email
+      name: email
+      required: false
+      widget: string
+    - hint: 'Format international, ex: +33 1 23 45 67 89'
+      i18n: true
+      label: Téléphone
+      name: phone
+      required: false
+      widget: string
+    - hint: Lien Doctolib (https://doctolib.fr/…)
+      i18n: true
+      label: Doctolib
+      name: doctolib
+      required: false
+      widget: string
+    - collapsed: true
+      fields:
+      - i18n: true
+        label: Plateforme
+        name: platform
+        options:
+        - label: Facebook
+          value: facebook
+        - label: Github
+          value: github
+        - label: Google
+          value: google
+        - label: Instagram
+          value: instagram
+        - label: Linkedin
+          value: linkedin
+        - label: Pinterest
+          value: pinterest
+        - label: Threads
+          value: threads
+        - label: Tiktok
+          value: tiktok
+        - label: Twitch
+          value: twitch
+        - label: Twitter
+          value: twitter
+        - label: Vimeo
+          value: vimeo
+        - label: Youtube
+          value: youtube
+        required: true
+        widget: select
+      - hint: 'URL absolue (ex : https://www.example.com)'
+        i18n: true
+        label: URL
+        name: url
+        required: false
+        widget: string
+      i18n: true
+      label: Socials
+      label_singular: Social
+      minimize_collapsed: true
+      name: socials
+      required: false
+      widget: list
+    i18n: true
+    label: Contact
+    name: contact
+    required: false
+    widget: object
+  - collapsed: false
+    i18n: true
+    label: Blocs
+    label_singular: Bloc
+    minimize_collapsed: true
+    name: blocks
+    required: false
+    types:
+    - collapsed: false
+      fields:
+      - i18n: true
+        label: Direction
+        name: direction
+        options:
+        - label: Texte à gauche / image à droite
+          value: ltr
+        - label: Image à gauche / texte à droite
+          value: rtl
+        required: false
+        widget: select
+      - i18n: true
+        label: Sur-titre
+        name: surtitle
+        required: false
+        widget: string
+      - i18n: true
+        label: Titre
+        name: title
+        required: false
+        widget: string
+      - buttons:
+        - bold
+        - italic
+        - link
+        - bulleted-list
+        editor_components: []
+        i18n: true
+        label: Texte
+        minimal: true
+        modes:
+        - rich_text
+        name: text
+        required: false
+        widget: markdown
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          widget: string
+        - hint: 'URL absolue (ex : https://www.example.com)'
+          i18n: true
+          label: URL
+          name: url
+          required: false
+          widget: string
+        - hint: Enter code lang (e.g. fr) if different of the current page language
+          i18n: true
+          label: Langue
+          name: lang
+          required: false
+          widget: string
+        - i18n: true
+          label: Nouvelle fenêtre ?
+          name: blank
+          required: false
+          widget: boolean
+        i18n: true
+        label: CTAs
+        label_singular: CTA
+        minimize_collapsed: true
+        name: ctas
+        required: false
+        widget: list
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: true
+          label: Image
+          media_folder: /assets/images/uploads
+          media_library:
+            config:
+              max_file_size: '700000'
+          name: src
+          public_folder: /images/uploads
+          required: false
+          widget: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          widget: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          widget: markdown
+        i18n: true
+        label: Image
+        name: image
+        required: false
+        widget: object
+      - default: false
+        i18n: duplicate
+        label: Avec un fond différent ?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Éditorial
+      name: editorial
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - collapsed: true
+        fields:
+        - choose_url: false
+          hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+          i18n: true
+          label: Image
+          media_folder: /assets/images/uploads
+          media_library:
+            config:
+              max_file_size: '700000'
+          name: src
+          public_folder: /images/uploads
+          required: false
+          widget: image
+        - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+          i18n: true
+          label: Texte alternatif
+          name: alt
+          required: false
+          widget: string
+        - i18n: true
+          label: Légende
+          name: legend
+          required: false
+          widget: string
+        - buttons:
+          - link
+          editor_components: []
+          i18n: true
+          label: Crédit
+          minimal: true
+          modes:
+          - rich_text
+          name: credit
+          required: false
+          widget: markdown
+        - hint: Ajoute un faux navigateur autour de l’image
+          i18n: true
+          label: Capture d’écran ?
+          name: screenshot
+          required: false
+          widget: boolean
+        i18n: true
+        label: Figure
+        name: figure
+        required: false
+        widget: object
+      - default: large
+        i18n: true
+        label: Grid
+        name: grid
+        options:
+        - label: Small
+          value: small
+        - label: Medium
+          value: medium
+        - label: Large
+          value: large
+        - label: Container
+          value: container
+        - label: Full
+          value: full
+        required: true
+        widget: select
+      - i18n: true
+        label: Offset
+        name: offset
+        options:
+        - label: Start
+          value: start
+        - label: Center
+          value: center
+        - label: End
+          value: end
+        required: false
+        widget: select
+      - default: false
+        i18n: duplicate
+        label: Avec un fond différent ?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Figure
+      name: figure
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: 3
+        hint: Nombre de colonnes affichées sur ordinateur
+        i18n: duplicate
+        label: Colonne
+        max: 6
+        min: 1
+        name: column
+        required: false
+        step: 1
+        value_type: int
+        widget: number
+      - collapsed: true
+        fields:
+        - hint: Nom de l’icon provenant de https://icons.getbootstrap.com/
+          i18n: duplicate
+          label: Icone
+          name: icon
+          required: false
+          widget: string
+        - collapsed: true
+          fields:
+          - choose_url: false
+            hint: 'Redimensionner et compresser l’image avant l’envoi : https://bulkresizephotos.com/fr?quality=90&type=width&width=1600'
+            i18n: true
+            label: Image
+            media_folder: /assets/images/uploads
+            media_library:
+              config:
+                max_file_size: '700000'
+            name: src
+            public_folder: /images/uploads
+            required: false
+            widget: image
+          - hint: Pour une image qui transmet des informations (laisser vide si image décorative)
+            i18n: true
+            label: Texte alternatif
+            name: alt
+            required: false
+            widget: string
+          - hint: Positionne au centre et n’est pas recadré
+            i18n: true
+            label: Logo ?
+            name: isLogo
+            required: false
+            widget: boolean
+          i18n: true
+          label: Image
+          name: image
+          required: false
+          widget: object
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - i18n: true
+          label: Texte
+          name: text
+          required: false
+          widget: string
+        - collapsed: true
+          fields:
+          - i18n: true
+            label: Texte
+            name: text
+            required: false
+            widget: string
+          - hint: 'URL absolue (ex : https://www.example.com)'
+            i18n: true
+            label: URL
+            name: url
+            required: false
+            widget: string
+          - hint: Enter code lang (e.g. fr) if different of the current page language
+            i18n: true
+            label: Langue
+            name: lang
+            required: false
+            widget: string
+          - i18n: true
+            label: Nouvelle fenêtre ?
+            name: blank
+            required: false
+            widget: boolean
+          i18n: true
+          label: CTA
+          name: cta
+          required: false
+          widget: object
+        i18n: true
+        label: Items
+        label_singular: Item
+        minimize_collapsed: true
+        name: items
+        required: false
+        widget: list
+      - default: false
+        i18n: duplicate
+        label: Avec un fond différent ?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Informations
+      name: informations
+      required: false
+      widget: object
+    - collapsed: false
+      fields:
+      - collapsed: true
+        fields:
+        - i18n: true
+          label: Sur-titre
+          name: surtitle
+          required: false
+          widget: string
+        - i18n: true
+          label: Titre
+          name: title
+          required: false
+          widget: string
+        - buttons:
+          - bold
+          - italic
+          - link
+          - bulleted-list
+          editor_components: []
+          i18n: true
+          label: Texte
+          minimal: true
+          modes:
+          - rich_text
+          name: text
+          required: false
+          widget: markdown
+        i18n: true
+        label: En-tête
+        name: heading
+        required: false
+        summary: '{{ title }}'
+        widget: object
+      - default: false
+        hint: Only if you have places already saved (this will disable the marker below)
+        i18n: true
+        label: Affiche tous les lieux ?
+        name: show_places
+        required: false
+        widget: boolean
+      - default: '{"type": "Point", "coordinates": [2.3482818864606827, 48.85400956974931]}'
+        i18n: true
+        label: Lieu
+        name: location
+        widget: map
+      - default: 13
+        i18n: duplicate
+        label: Zoom
+        max: 20
+        min: 1
+        name: zoom
+        required: false
+        step: 1
+        value_type: int
+        widget: number
+      - default: large
+        i18n: true
+        label: Grid
+        name: grid
+        options:
+        - label: Small
+          value: small
+        - label: Medium
+          value: medium
+        - label: Large
+          value: large
+        - label: Container
+          value: container
+        - label: Full
+          value: full
+        required: true
+        widget: select
+      - default: false
+        i18n: duplicate
+        label: Avec un fond différent ?
+        name: background
+        required: false
+        widget: boolean
+      i18n: true
+      label: Carte
+      name: map
+      required: false
+      widget: object
+    widget: list
+  filter:
+    field: isIndex
+    value: false
+  folder: content/persons
+  i18n: true
+  label: Personnes
+  label_singular: Personne
+  media_folder: /assets/images/uploads
+  name: persons
+  path: '{{slug}}'
+  slug: '{{slug}}'
+- create: true
+  description: Tous les statuts
+  editor:
+    preview: false
+  fields:
+  - default: false
+    i18n: true
+    label: is not index
+    name: isIndex
+    required: false
+    widget: hidden
+  - default: true
+    i18n: true
+    label: Brouillon
+    name: draft
+    required: false
+    widget: boolean
+  - hint: Affiché dans les onglets, les résultats de recherche et l’aperçu des SMS/messages/réseaux sociaux
+    i18n: true
+    label: Titre de la page
+    name: title
+    required: true
+    widget: string
+  - hint: Affiché dans les onglets, les résultats de recherche et l’aperçu des SMS/messages/réseaux sociaux
+    i18n: true
+    label: Description
+    name: description
+    required: false
+    widget: text
+  - i18n: true
+    label: Position (importance)
+    name: weight
+    options:
+    - label: Le premier
+      value: 10
+    - label: Le deuxième
+      value: 20
+    - label: Le troisième
+      value: 30
+    - label: Le quatrième
+      value: 40
+    - label: Le cinquième
+      value: 50
+    - label: Le sixième
+      value: 60
+    - label: Le septième
+      value: 70
+    - label: Le huitième
+      value: 80
+    - label: Le neuvième
+      value: 90
+    - label: Le dernier
+      value: 100
+    required: false
+    widget: select
+  - hint: Leave empty to automate with the title. **Be carefull to SEO impact.**
+    i18n: true
+    label: Slug
+    name: slug
+    pattern:
+    - ^(|[a-z0-9-]+)$
+    - Contain only lowercase letters, numbers, and hyphens, with no spaces, accents, or special characters
+    required: false
+    widget: string
+  filter:
+    field: isIndex
+    value: false
+  folder: content/persons_statutes
+  i18n: true
+  label: Statuts
+  label_singular: Statut
+  media_folder: /assets/images/uploads
+  name: persons_statutes
+  path: '{{slug}}/_index'
+  slug: '{{slug}}'
+
+

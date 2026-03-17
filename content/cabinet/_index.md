@@ -40,7 +40,7 @@ blocks:
   - type: editorial
     direction: rtl
     image:
-      src: /images/uploads/lechaban-20.jpeg
+      src: /images/uploads/salle-augoyard-2.jpg
     title: Nous accordons une attention toute particulière à nos plus jeunes patients.
     text: >-
        Dans un environnement rassurant et pédagogique, notre équipe propose un accueil spécifique pour les enfants, afin de leur transmettre les bons réflexes d’hygiène bucco-dentaire dès le plus jeune âge et de prévenir l’appréhension des soins dentaires.
@@ -52,18 +52,18 @@ blocks:
     grid: large
     offset: center
     figure:
-      src: /images/uploads/lechaban-18.jpeg
+      src: /images/uploads/salle-barraud-benjamin-2.jpg
   
   - type: images
     images:
       - src: /images/uploads/lechaban-facade.jpg
         half: true
-      - src: /images/uploads/lechaban-17.jpeg
+      - src: /images/uploads/salle-barraud-maxime-2.jpg
         half: true
 
   - type: figure
     grid: medium
     offset: end
     figure:
-      src: /images/uploads/IMG_0643.jpg
+      src: /images/uploads/imagerie.jpg
 ---
