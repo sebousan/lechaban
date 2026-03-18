@@ -56,7 +56,7 @@ blocks:
     items:
       - summary: "Comment prendre rendez-vous au cabinet dentaire Le Chaban à Bordeaux ?"
         text: >-
-          Vous pouvez prendre rendez-vous directement sur **Doctolib** ou en contactant notre secrétariat par téléphone au **05 57 81 57 90**. Le cabinet est ouvert du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 18h00.
+          Vous pouvez prendre rendez-vous directement sur **[Doctolib](https://www.doctolib.fr/centre-dentaire/bordeaux/le-chaban-cabinet-dentaire-bordeaux)** ou en contactant notre secrétariat par téléphone au **05 57 81 57 90**. Le cabinet est ouvert du lundi au vendredi de 9h00 à 12h00 et de 14h00 à 18h00.
       - summary: "Quelles sont les spécialités pratiquées au cabinet ?"
         text: >-
           Nos praticiens à Bordeaux sont spécialisés en **soins dentaires**, **implantologie**, **orthodontie**, **pédodontie** (soins pour enfants), **esthétique dentaire** et **parodontie**.
@@ -69,4 +69,7 @@ blocks:
       - summary: "Quelles sont les mesures d'hygiène appliquées ?"
         text: >-
           Nous suivons des protocoles de stérilisation et d'asepsie stricts, conformes aux normes en vigueur, pour garantir une sécurité optimale lors de chaque soin dentaire.
+      - summary: "Le cabinet dispose-t-il d'équipements spécialisés sur place ?"
+        text: >-
+          Oui, notre cabinet est équipé d'une **salle de chirurgie** dédiée pour les interventions chirurgicales (implants, extractions complexes, etc.) ainsi que d'une **salle d'imagerie** permettant de réaliser vos radios et examens radiologiques directement sur place.
 ---

@@ -19,18 +19,22 @@ San Francisco, \
 California 94107, \
 United States
 
-{{< blank_link text="netlify.com" link="https://www.netlify.com/" >}}
+{{< blank_link text="www.netlify.com" link="https://www.netlify.com/" >}}
 
 ## Conception
 
-**Logo, design, intégration et développement** \
-Un Cinq\
-{{< blank_link text="uncinq.dev" link="https://uncinq.dev/" >}}
+**Logo et design**\
+{{< blank_link text="Un Cinq" link="https://uncinq.dev/" >}}
+
+**Intégration et développement** \
+{{< blank_link text="Un Cinq" link="https://uncinq.dev/" >}}
 
 **Solution** \
-Ce site a été conçu avec {{< blank_link text="Medicalify" link="https://www.medicalify.io/" >}}, une solution open-source basée sur {{< blank_link text="Hugolify" link="https://www.hugolify.io/" >}}, qui permet de concevoir un site le plus écologique possible et au plus proche des critères d’accessibilité. Cette solution est dédiée à l’univers médical.
+Ce site a été conçu avec {{< blank_link text="Medicalify" link="https://www.medicalify.io/" >}}, une solution open-source basée sur {{< blank_link text="Hugolify" link="https://www.hugolify.io/" >}}, qui permet de concevoir un site le plus écologique possible et au plus proche des critères d’accessibilité. \
+Cette solution est dédiée à l’univers médical.
 
 ## Crédits photographiques
 
 - Jaasp
 - Le Chaban
+- Un Cinq
