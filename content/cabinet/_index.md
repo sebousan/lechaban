@@ -17,7 +17,10 @@ blocks:
       Ancré au cœur de Bordeaux depuis 1970, le cabinet dentaire Le Chaban s’appuie sur une expertise historique pour offrir des soins d’excellence à ses patients. 
       
       
-      Situé en face du stade Chaban Delmas, notre établissement perpétue depuis plus de cinquante ans un engagement constant pour la santé bucco-dentaire, alliant expérience clinique et accueil privilégié.
+      Initialement à Saint-Genès, le cabinet est aujourd'hui situé en face du stade Chaban Delmas. 
+      
+      
+      Notre établissement perpétue depuis plus de cinquante ans un engagement constant pour la santé bucco-dentaire, alliant expérience clinique et accueil privilégié.
 
   - type: quote
     quote: >-
