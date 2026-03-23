@@ -18,9 +18,15 @@ blocks:
       
       
       Situé en face du stade Chaban Delmas, notre établissement perpétue depuis plus de cinquante ans un engagement constant pour la santé bucco-dentaire, alliant expérience clinique et accueil privilégié.
-    ctas:
-      - text: Contacter le secrétariat
-        url: /contact/
+
+  - type: quote
+    quote: >-
+      En tant que chirurgien-dentiste, je perpétue avec fierté l'héritage de mon père, qui avait fondé son cabinet au début des années 70. Avec mes associés, nous avons orchestré le transfert de ce cabinet  historique bordelais vers un bâtiment majestueux, alliant le prestige du passé à une modernité absolue, où confort et technologie se rencontrent, au service de chaque patient.
+    author: 
+      title: Dr Benjamin Barraud
+      text: Associé chirurgien-dentiste
+      image: 
+        src: /images/uploads/benjamin-barraud-portrait.jpg
   
   - type: editorial
     grid: medium

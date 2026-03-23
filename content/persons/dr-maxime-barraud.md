@@ -2,8 +2,7 @@
 isIndex: false
 draft: false
 title: Dr Maxime Barraud
-description: >-
-  Chirurgien-dentiste spécialisé en parodontologie et implantologie, le Dr Maxime Barraud accueille ses patients dans son cabinet à Bordeaux.
+description: Chirurgien-dentiste omnipraticien, le Dr Maxime Barraud réalise l’ensemble des soins dentaires, allant des traitements conservateurs aux actes plus spécialisés.
 persons_statutes: Chirurgien-dentiste
 image:
   src: /images/uploads/maxime-barraud-portrait.jpg
@@ -11,17 +10,36 @@ contact:
   doctolib: https://www.doctolib.fr/dentiste/bordeaux/maxime-barraud
 blocks:
   - type: editorial
-    title: Le Dr Maxime Barraud
+    title: Chirurgien dentiste, Omnipratique
     direction: rtl
     text: >-
-      Le Dr Maxime Barraud accueille ses patients dans son cabinet à Bordeaux. Spécialisé en parodontologie et implantologie, il propose des soins de haute qualité dans un environnement moderne et confortable.
+      Effectuant une partie de sa formation au sein même du cabinet, à travers plusieurs stages qui lui ont permis d’intégrer une bonne connaissance de son fonctionnement et de ses valeurs. C’est donc tout naturellement que le Dr Barraud a choisi de rejoindre le cabinet afin d’y exercer en famille, dans une logique de continuité des soins.
+
+
+      Rigoureux, il accorde une attention particulière à la qualité des traitements et au bien-être de ses patients. À l’écoute et disponible, il prend le temps d’instaurer une relation de confiance et d’expliquer chaque étape des soins proposés, afin que le patient se sente informé et puisse avancer sereinement dans son parcours de soins.
+
+
+      Diplômé de l’université de Porto, Portugal.
     image:
       src: /images/uploads/maxime-barraud-landscape.jpg
 
   - type: editorial
-    title: Une salle accessible PMR, lumineuse et moderne
+    title: Le Dr Maxime Barraud
     text: >-
-      Le Dr Maxime Barraud accueille ses patients dans une salle de soins moderne et lumineuse, conçue pour offrir un confort optimal. Équipée des dernières technologies en matière de dentisterie, cette salle permet de réaliser tous les soins dans les meilleures conditions, dans un environnement apaisant et professionnel.
+      Il réalise l’ensemble des soins dentaires, allant des traitements conservateurs aux actes plus spécialisés :
+      
+      * Soins conservateurs
+
+      * Dentisterie esthétique
+      
+      * Chirurgie dentaire
+      
+      * Prothèses dentaires
+      
+      * Implantologie
+      
+      
+      Son approche globale et personnalisée lui permet de répondre au mieux aux besoins de chaque patient.
     image:
       src: /images/uploads/salle-barraud-maxime.jpg
 

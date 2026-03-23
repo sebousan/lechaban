@@ -15,7 +15,10 @@ blocks:
     title: Le Dr Benjamin Barraud
     direction: rtl
     text: >-
-      Le Dr Benjamin Barraud accueille ses patients dans son cabinet à Bordeaux. Spécialisé en parodontologie et implantologie, il propose des soins de haute qualité dans un environnement moderne et confortable.
+      Après avoir suivi une formation à l'université de Genève, reconnue pour son orientation vers l'esthétique, j'ai construit ma pratique dans ce sens. 
+      
+      
+      Au fil des années, cette pratique s'est naturellement orientée vers des domaines pointus, notamment l'implantologie et les soins de la gencive, afin d'offrir à mes patients une approche globale alliant précision, esthétique et bienveillance.
     image:
       src: /images/uploads/benjamin-barraud-landscape.jpg
 
