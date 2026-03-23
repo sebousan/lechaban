@@ -4,7 +4,7 @@ draft: false
 weight: 10
 title: Dr Frederic Bancaud
 description: >-
-  Chirurgien-dentiste spécialisé en parodontologie et implantologie, le Dr Frederic Bancaud accueille ses patients dans son cabinet à Bordeaux.
+  Chirurgien-dentiste omnipraticien diplômé de la faculté de Bordeaux, D. U. Implantologie, formation en chirurgie pré implantaire, greffe, chirurgie muco gingivale, dentisterie esthétique.
 persons_statutes: Chirurgien-dentiste
 contact:
   doctolib: https://www.doctolib.fr/dentiste/bordeaux/frederic-bancaud
@@ -16,7 +16,16 @@ blocks:
     direction: rtl
     title: Au cabinet depuis 1999
     text: >-
-      Le Dr Frederic Bancaud accueille ses patients dans son cabinet à Bordeaux. Spécialisé en parodontologie et implantologie, il propose des soins de haute qualité dans un environnement moderne et confortable.
+      Le docteur Bancaud a intégré en 1999, le Cabinet Saint-Genès, qui était parmi les premiers à pratiquer l’implantologie à Bordeaux.
+      
+
+      Dans la continuité de sa précédente activité, il participe à la création en 2025 du nouveau Cabinet Le Chaban avec une équipe pluridisciplinaire élargie.
+
+
+      Il propose des soins adaptés à ses patients en s’appuyant sur sa longue  expérience et des techniques les plus récentes : dentisterie générale, implantologie, parodontologie, dentisterie esthétique… 
+      
+
+      Il propose une dentisterie générale en prenant en compte en globalité la problématique des patients, en étroite collaboration avec l’équipe du Cabinet.
     image:
       src: /images/uploads/frederic-bancaud-landscape.jpg
 
