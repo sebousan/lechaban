@@ -1,6 +1,6 @@
 # Cabinet dentaire Le Chaban — Bordeaux
 
-> Cabinet dentaire pluridisciplinaire situé au 66 Boulevard du Maréchal Leclerc, 33000 Bordeaux, en face du stade Chaban Delmas. Fondé en 1970, spécialisé en parodontologie, implantologie et chirurgie dentaire. Entièrement accessible aux personnes à mobilité réduite (PMR).
+> Cabinet de dentisterie générale situé au 66 Boulevard du Maréchal Leclerc, 33000 Bordeaux, en face du stade Chaban Delmas. Fondé en 1970, le cabinet maîtrise les techniques de soins conservateurs et les dernières techniques de greffes et d'implantologie. Entièrement accessible aux personnes à mobilité réduite (PMR).
 
 ## Informations pratiques
 
@@ -14,11 +14,13 @@
 
 ## Spécialités
 
+- Dentisterie générale et soins conservateurs
+- Greffes osseuses et tissulaires
+- Implantologie
+- Parodontologie
 - Endodontie
 - Esthétique dentaire
-- Implantologie
 - Occlusodontie
-- Parodontologie
 - Pédodontie (soins pour enfants jusqu'à 13 ans)
 
 ## Praticiens

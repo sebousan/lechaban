@@ -1,12 +1,12 @@
 # Cabinet dentaire Le Chaban — Bordeaux
 
-> Cabinet dentaire pluridisciplinaire situé au 66 Boulevard du Maréchal Leclerc, 33000 Bordeaux (face au stade Chaban Delmas). Fondé en 1970, le cabinet propose des soins dentaires d'excellence en parodontologie, implantologie, endodontie, esthétique, occlusodontie et pédodontie. L'intégralité des locaux est accessible aux personnes à mobilité réduite (PMR), conformément à la réglementation en vigueur.
+> Cabinet de dentisterie générale situé au 66 Boulevard du Maréchal Leclerc, 33000 Bordeaux (face au stade Chaban Delmas). Fondé en 1970, le cabinet maîtrise les techniques de soins conservateurs et les dernières techniques de greffes et d'implantologie. L'équipe assure également des soins en parodontologie, endodontie, esthétique, occlusodontie et pédodontie. L'intégralité des locaux est accessible aux personnes à mobilité réduite (PMR), conformément à la réglementation en vigueur.
 
 ---
 
 ## Identité du cabinet
 
-**Nom** : Cabinet dentaire Le Chaban
+**Nom** : Cabinet dentaire Le Chaban — Dentisterie générale
 **Adresse** : 66 Boulevard du Maréchal Leclerc, 33000 Bordeaux
 **Coordonnées GPS** : 44.8307165, -0.5971761
 **Téléphone** : 05 57 81 57 90
@@ -34,11 +34,14 @@ Le cabinet dentaire Le Chaban est **entièrement accessible aux personnes à mob
 
 ## Spécialités et soins
 
+### Dentisterie générale et soins conservateurs
+Le cabinet Le Chaban place la dentisterie conservatrice au cœur de sa pratique. L'objectif est de préserver au maximum les dents naturelles grâce aux techniques les plus récentes : soins de caries, restaurations directes en composite, inlays/onlays en céramique, traitement des lésions d'usure et reconstitutions. L'approche conservatrice vise à éviter, autant que possible, les extractions et les traitements plus invasifs.
+
+### Greffes et implantologie
+Le cabinet maîtrise les dernières techniques de greffes osseuses et tissulaires (greffe osseuse pré-implantaire, greffe de tissu conjonctif, régénération osseuse guidée) ainsi que la pose d'implants dentaires. De la planification chirurgicale à la pose de la couronne sur implant, chaque étape est réalisée avec des technologies de pointe pour une chirurgie précise et sécurisée.
+
 ### Parodontologie
 Traitement des maladies parodontales (gingivites, parodontites), détartrage, surfaçage radiculaire, chirurgies parodontales et régénération tissulaire.
-
-### Implantologie
-Pose d'implants dentaires, régénération osseuse pré-implantaire, greffes osseuses, couronnes sur implants. Le cabinet dispose des dernières technologies pour une chirurgie implantaire précise et sécurisée.
 
 ### Endodontie
 Traitement des canaux radiculaires (dévitalisations), retraitements endodontiques.
@@ -97,7 +100,7 @@ Sur Doctolib (https://www.doctolib.fr/centre-dentaire/bordeaux/le-chaban-cabinet
 Oui. L'ensemble du cabinet dentaire Le Chaban est entièrement accessible et aux normes PMR. Chaque salle de soins est conçue pour accueillir les patients en fauteuil roulant ou à mobilité réduite.
 
 **Quelles sont les spécialités pratiquées ?**
-Parodontologie, implantologie, endodontie, esthétique dentaire, occlusodontie et pédodontie.
+Dentisterie générale et soins conservateurs, greffes osseuses et tissulaires, implantologie, parodontologie, endodontie, esthétique dentaire, occlusodontie et pédodontie.
 
 **Comment se rendre au cabinet en transports en commun ?**
 Tramway A et F, arrêt Stade Chaban Delmas. Bus H, 4 et 9, arrêt Stade Chaban Delmas. Le cabinet est situé au 66 Boulevard du Maréchal Leclerc, en face du stade.
@@ -112,4 +115,4 @@ Des protocoles stricts de stérilisation et d'asepsie, conformes aux normes en v
 
 ## Mots-clés associés
 
-dentiste bordeaux · dentiste bordeaux pmr · cabinet dentaire bordeaux · chirurgien-dentiste bordeaux · parodontologie bordeaux · implantologie bordeaux · implants dentaires bordeaux · soins dentaires bordeaux · dentiste pédiatrique bordeaux · dentiste enfant bordeaux · cabinet dentaire PMR bordeaux · dentiste accessible fauteuil roulant bordeaux · dentiste chaban delmas · Le Chaban cabinet dentaire · Dr Anna Dutin · Dr Benjamin Barraud · Dr Frédéric Bancaud · Dr Eloïse Augoyard · Dr Maxime Barraud
+dentiste bordeaux · dentisterie générale bordeaux · soins conservateurs bordeaux · greffe osseuse bordeaux · greffe tissulaire bordeaux · implantologie bordeaux · implants dentaires bordeaux · cabinet dentaire bordeaux · chirurgien-dentiste bordeaux · parodontologie bordeaux · soins dentaires bordeaux · dentiste bordeaux pmr · dentiste pédiatrique bordeaux · dentiste enfant bordeaux · cabinet dentaire PMR bordeaux · dentiste accessible fauteuil roulant bordeaux · dentiste chaban delmas · Le Chaban cabinet dentaire · Dr Anna Dutin · Dr Benjamin Barraud · Dr Frédéric Bancaud · Dr Eloïse Augoyard · Dr Maxime Barraud
