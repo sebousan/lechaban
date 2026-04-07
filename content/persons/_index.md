@@ -4,6 +4,6 @@ title: L’équipe de chirurgiens-dentistes
 hero:
   title: L’équipe de chirurgiens-dentistes
   text: >-
-    Spécialisé dans le traitement des maladies parodontales, la pose d’implants dentaires et la régénération osseuse pré-implantaire.
+    Cabinet de dentisterie générale qui maîtrise les techniques de soins conservateurs et les dernières techniques de greffes et d’implantologie.
   align: center
 ---

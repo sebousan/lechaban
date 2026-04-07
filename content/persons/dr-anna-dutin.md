@@ -3,7 +3,7 @@ isIndex: false
 draft: false
 title: Dr Anna Dutin
 description: >-
-  Chirurgien-dentiste spécialisé en parodontologie et implantologie, le Dr Anna Dutin accueille ses patients dans son cabinet à Bordeaux.
+  Le Dr Anna Dutin accueille ses patients dans son cabinet à Bordeaux.
 weight: 10
 persons_statutes: Chirurgien-dentiste
 contact:
