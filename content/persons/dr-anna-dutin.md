@@ -16,7 +16,7 @@ blocks:
     title: Le Dr Anna Dutin
     direction: rtl
     text: >-
-      Le Dr Anna Dutin accueille ses patients dans son cabinet à Bordeaux. Spécialisée en parodontologie et implantologie, elle propose des soins de haute qualité dans un environnement moderne et confortable.
+      Le Dr Anna Dutin accueille ses patients dans son cabinet à Bordeaux. Maitrisant toutes les techniques de la dentisterie conservatrice et initiée aux techniques chirurgicales, elle propose des soins de haute qualité dans un environnement moderne et confortable.
     image:
       src: /images/uploads/anna-dutin-landscape.jpg
 

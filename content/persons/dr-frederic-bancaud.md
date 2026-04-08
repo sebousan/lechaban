@@ -25,7 +25,7 @@ blocks:
       Il propose des soins adaptés à ses patients en s’appuyant sur sa longue  expérience et des techniques les plus récentes : dentisterie générale, implantologie, parodontologie, dentisterie esthétique… 
       
 
-      Il propose une dentisterie générale en prenant en compte en globalité la problématique des patients, en étroite collaboration avec l’équipe du Cabinet.
+      Il propose une dentisterie globale en prenant en charge le patient dans son ensemble, en étroite collaboration avec l’équipe du Cabinet.
     image:
       src: /images/uploads/frederic-bancaud-landscape.jpg
 

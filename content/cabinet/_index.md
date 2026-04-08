@@ -38,10 +38,16 @@ blocks:
       src: /images/uploads/lechaban-22.jpeg
     title: Nos expertises
     text: >-
-      Spécialisé dans le traitement des maladies parodontales, la pose d’implants dentaires et la régénération osseuse pré-implantaire, le cabinet met à votre disposition les dernières innovations technologiques. 
+      Notre cabinet dentaire vous propose une prise en charge globale pour l’ensemble de vos besoins en matière de santé bucco-dentaire.
+     
+
+      Spécialisé dans le traitement des maladies parodontales, la pose d’implants dentaires et la régénération osseuse pré-implantaire, le cabinet met à votre disposition les dernières innovations technologiques.
+
+    
+      Nos praticiens vous accompagnent à chaque étape de votre parcours de soin pour restaurer durablement la fonction et l’esthétique de votre sourire.
       
-      
-      Nos praticiens vous accompagnent à chaque étape de votre parcours de soin pour restaurer durablement la fonctionnalité et l’esthétique de votre sourire.
+
+      Nous avons fait le choix il y a 10 ans d'internaliser la fabrication de nos prothèses afin de garantir une qualité optimale et un contrôle total sur le processus de fabrication.
     ctas:
       - text: Contacter le secrétariat
         url: /contact/
