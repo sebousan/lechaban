@@ -4,7 +4,7 @@ draft: false
 weight: 10
 title: Dr Benjamin Barraud
 description: >-
-  Le dr Benjamin Barraud accueille ses patients dans son cabinet à Bordeaux.
+  Le Dr Benjamin Barraud accueille ses patients dans son cabinet à Bordeaux.
 persons_statutes: Chirurgien-dentiste
 contact:
   doctolib: https://www.doctolib.fr/dentiste/bordeaux/benjamin-barraud
