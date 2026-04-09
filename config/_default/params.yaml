@@ -1,13 +1,20 @@
 _merge: deep
 
 # Map
-tile: 1
+# tile: 1
 
 # Images
+image:
+  retina: 
+    desktop: true
 logo:
   footer: '/assets/images/logo.svg'
+persons: 
+  image:
+    desktop: 636x424
 
 # Javascript
+# animation: true
 carousel: false
 bootstrap:
   collapse: false
@@ -15,12 +22,31 @@ bootstrap:
   modal: false
   offcanvas: false
 map: true
+# parallax: 
+#   enable: true
 
 # Admin
 admin:
 
+  collections:
+    persons:
+      fields:
+        - is_not_index
+        - draft
+        - title_page
+        - description
+        - relation:
+            collection: persons_statutes
+            multiple: false
+        - featured_image
+        - contact
+        # - diplomas
+        - blocks
+
   # blocks
   blocks:
     enable:
+      - editorial
+      - figure
       - informations
       - map

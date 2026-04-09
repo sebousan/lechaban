@@ -10,44 +10,64 @@ hero:
     - url: 'mailto:contact@lechaban.fr'
       text: contact@lechaban.fr
     - url: https://www.doctolib.fr/centre-dentaire/bordeaux/le-chaban-cabinet-dentaire-bordeaux
-      text: Doctolib
-      class: doctolib
+      text: Prendre rendez-vous
+      blank: true
+      class: btn-doctolib
 blocks:
-  - type: informations
-    column: 3
+
+  - type: editorial
+    direction: rtl
+    image:
+      src: /images/uploads/lechaban-08.jpeg
+    title: À Bordeaux, depuis 1970
+    text: >-
+      Notre établissement perpétue depuis plus de cinquante ans un engagement constant pour la santé bucco-dentaire, alliant expérience clinique et accueil privilégié.
+      
+      
+      Situé en face du stade Chaban Delmas.
+
+
+      Le cabinet dentaire Le Chaban s’appuie sur une expertise historique pour offrir des soins d’excellence à ses patients :
+
+      - Endodontie
+      
+      - Esthétique
+      
+      - Implantologie
+      
+      - Occlusodontie
+      
+      - Parodontie
+      
+      - Pédodontie
+    ctas:
+      - text: Découvrir le cabinet Le Chaban
+        url: /cabinet-dentaire-a-bordeaux/
+  
+  - type: selected-persons
+    section: persons
     heading:
-      title: Prendre rendez-vous
-    items: 
-      - title: Dr Anna Dutin
-        text: Chirurgien-dentiste
-        cta:
-          url: https://www.doctolib.fr/dentiste/bordeaux/anna-dutin
-          text: <span>Prendre rendez-vous sur</span> Doctolib
-          blank: true
-      - title: Dr Benjamin Barraud
-        text: Chirurgien-dentiste
-        cta:
-          url: https://www.doctolib.fr/dentiste/bordeaux/benjamin-barraud
-          text: <span>Prendre rendez-vous sur</span> Doctolib
-          blank: true
-      - title: Dr Frédéric Bancaud
-        text: Chirurgien-dentiste
-        cta:
-          url: https://www.doctolib.fr/dentiste/bordeaux/frederic-bancaud
-          text: <span>Prendre rendez-vous sur</span> Doctolib
-          blank: true
-      - title: Dr Eloïse Augoyard
-        text: Chirurgien-dentiste pédiatrique exclusive
-        cta:
-          url: https://www.doctolib.fr/dentiste/cenon/eloise-augoyard
-          text: <span>Prendre rendez-vous sur</span> Doctolib
-          blank: true
-      - title: Dr Maxime Barraud
-        text: Chirurgien-dentiste
-        cta:
-          url: https://www.doctolib.fr/dentiste/bordeaux/maxime-barraud
-          text: <span>Prendre rendez-vous sur</span> Doctolib
-          blank: true
+      title: L’équipe de Chirurgien-dentiste
+      text: >-
+        Le cabinet dentaire Le Chaban est composé de chirurgiens-dentistes spécialisés dans différentes disciplines de la dentisterie. 
+    layout: grid
+    items:
+      - Dr Anna Dutin
+      - Dr Benjamin Barraud
+      - Dr Frederic Bancaud
+      - Dr Eloïse Augoyard
+      - Dr Maxime Barraud
+
+  - type: editorial
+    direction: ltr
+    image:
+      src: /images/uploads/salle-accueil.jpg
+    title: Un secrétariat à votre écoute
+    text: >-
+      Notre équipe de secrétariat vous accueille du lundi au vendredi pour répondre à vos questions, prendre vos rendez-vous et vous accompagner dans toutes vos démarches administratives.
+    ctas:
+      - text: Contacter le secrétariat
+        url: /contact/
 
   - type: map
     show_places: false
@@ -58,15 +78,4 @@ blocks:
     heading:
       surtitle: Le cabinet dentaire Le Chaban
       title: 66 Bd Maréchal Leclerc 33000 Bordeaux
-
-  - type: informations
-    column: 2
-    background: false
-    items:
-      - icon: train-lightrail-front
-        title: Tramway A et F
-        text: Arrêt Stade Chaban Delmas
-      - icon: bus-front
-        title: Bus H, 4 et 9
-        text: Arrêt Stade Chaban Delmas
 ---
