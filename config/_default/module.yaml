@@ -2,9 +2,7 @@ imports:
   # Specific Medicalify
   - path: github.com/uncinq/medicalify-theme
 
-  # For content
-  # - path: github.com/hugolify/hugolify-theme-expertises
-  # - path: github.com/hugolify/hugolify-theme-persons-expertises
+  # Content
   - path: github.com/hugolify/hugolify-theme-persons-statutes
   - path: github.com/hugolify/hugolify-theme-persons
 

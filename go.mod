@@ -11,9 +11,9 @@ require (
 	github.com/hugolify/hugolify-theme v1.27.14 // indirect
 	github.com/hugolify/hugolify-theme-persons v1.3.26 // indirect
 	github.com/hugolify/hugolify-theme-persons-statutes v1.1.12 // indirect
-	github.com/midzer/tobii v3.1.3+incompatible // indirect
+	github.com/midzer/tobii v3.2.0+incompatible // indirect
 	github.com/orestbida/cookieconsent v3.1.0+incompatible // indirect
 	github.com/twbs/bootstrap v5.3.8+incompatible // indirect
 	github.com/twbs/icons v1.13.1 // indirect
-	github.com/uncinq/medicalify-theme v0.0.0-20260309160943-3020b871b9c3 // indirect
+	github.com/uncinq/medicalify-theme v0.0.0-20260411153725-f9dd01e29601 // indirect
 )

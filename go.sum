@@ -14,13 +14,13 @@ github.com/hugolify/hugolify-theme-persons v1.3.26 h1:APxEu7cCSxFPyyE0TGlzRZtKUG
 github.com/hugolify/hugolify-theme-persons v1.3.26/go.mod h1:x6Gk/koepvu90W+Y6W0+F+5qqBx+lpeTZUonZUkCz1w=
 github.com/hugolify/hugolify-theme-persons-statutes v1.1.12 h1:DbH0jLNQAyeHkYHRfIqKAG30mpul3ZT0oRmGU0G6XEo=
 github.com/hugolify/hugolify-theme-persons-statutes v1.1.12/go.mod h1:/eWhaX5TxpPMzR6B/p071ViwbAllrqqCv6Soqta6FjY=
-github.com/midzer/tobii v3.1.3+incompatible h1:3h2eGycwcHuTWeBLg5bqCLx3EcPSV1rHT1btiu4A3k0=
-github.com/midzer/tobii v3.1.3+incompatible/go.mod h1:ByXFkVm8ja2+TXT7L+lfkdEIeHW4IdWdsQO8zJ5mEqA=
+github.com/midzer/tobii v3.2.0+incompatible h1:+08xCdrQ8dlXrkBIOJFsIUsfgme4Ou1CUfbqDmeX/Hc=
+github.com/midzer/tobii v3.2.0+incompatible/go.mod h1:ByXFkVm8ja2+TXT7L+lfkdEIeHW4IdWdsQO8zJ5mEqA=
 github.com/orestbida/cookieconsent v3.1.0+incompatible h1:L2uj16SEL1bICkn6pJde9uc1qAPmTcEiFZO93zZKdQI=
 github.com/orestbida/cookieconsent v3.1.0+incompatible/go.mod h1:8N46VI/40AwvzASJDpiwfbu6zylSzKSDZRUVNmVXLxw=
 github.com/twbs/bootstrap v5.3.8+incompatible h1:eK1fsXP7R/FWFt+sSNmmvUH9usPocf240nWVw7Dh02o=
 github.com/twbs/bootstrap v5.3.8+incompatible/go.mod h1:fZTSrkpSf0/HkL0IIJzvVspTt1r9zuf7XlZau8kpcY0=
 github.com/twbs/icons v1.13.1 h1:6bmNXvoeIbvjFWjfbjXg5JGbelLD1haIsMaEIzE9UZI=
 github.com/twbs/icons v1.13.1/go.mod h1:GnRlymgVWp5iVJCMa0Me5b6tFyGpVc2bSxPMRGIJmyA=
-github.com/uncinq/medicalify-theme v0.0.0-20260309160943-3020b871b9c3 h1:wQWEEP3Yl29rLrZLe3F6jWVOM4oC3giT0UVaDD5Dn7o=
-github.com/uncinq/medicalify-theme v0.0.0-20260309160943-3020b871b9c3/go.mod h1:84oJrC2s2gojLcDIpVN8WynVrQRFfd0Q9t0bnQ87iXA=
+github.com/uncinq/medicalify-theme v0.0.0-20260411153725-f9dd01e29601 h1:Mw2V/lQbAJuK8tqpELnhKPQjLEJLaV7AscTQR4SfFpM=
+github.com/uncinq/medicalify-theme v0.0.0-20260411153725-f9dd01e29601/go.mod h1:84oJrC2s2gojLcDIpVN8WynVrQRFfd0Q9t0bnQ87iXA=
