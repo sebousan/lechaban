@@ -26,7 +26,8 @@ blocks:
       
       * DU Odontologie Pédiatrique Clinique
     image:
-      src: /images/uploads/eloise-augoyard-landscape.jpg
+      # src: /images/uploads/eloise-augoyard-landscape.jpg
+      src: /images/uploads/salle-augoyard.jpg
 
   - type: editorial
     title: La pédodontie, ou odontologie pédiatrique
@@ -56,12 +57,6 @@ blocks:
       médicale et de solides compétences relationnelles.
     image:
       src: /images/uploads/salle-augoyard-2.jpg
-
-  - type: figure
-    offset: center
-    grid: large
-    figure:
-      src: /images/uploads/salle-augoyard.jpg
 
   - type: figure
     offset: center
