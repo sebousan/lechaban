@@ -7,7 +7,7 @@ image:
   src: /images/uploads/eloise-augoyard-portrait.jpg
 persons_statutes: Chirurgien-dentiste pédiatrique
 contact:
-  doctolib: https://www.doctolib.fr/dentiste/cenon/eloise-augoyard
+  doctolib: https://www.doctolib.fr/dentiste/bordeaux/eloise-augoyard
 
 blocks:
   - type: editorial
